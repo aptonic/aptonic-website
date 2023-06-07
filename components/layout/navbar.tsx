@@ -7,7 +7,7 @@ import { useSignInModal } from "./sign-in-modal";
 import UserDropdown from "./user-dropdown";
 import { Session } from "next-auth";
 
-export default function NavBar({ session }: { session: Session | null }) {
+export default function NavBar() {
   const { SignInModal, setShowSignInModal } = useSignInModal();
   const scrolled = useScroll(50);
 
@@ -33,16 +33,6 @@ export default function NavBar({ session }: { session: Session | null }) {
             <p>Precedent</p>
           </Link>
           <div>
-            {session ? (
-              <UserDropdown session={session} />
-            ) : (
-              <button
-                className="rounded-full border border-black bg-black p-1.5 px-4 text-sm text-white transition-all hover:bg-white hover:text-black"
-                onClick={() => setShowSignInModal(true)}
-              >
-                Sign In
-              </button>
-            )}
           </div>
         </div>
       </div>
