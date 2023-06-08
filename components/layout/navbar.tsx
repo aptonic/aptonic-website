@@ -6,6 +6,7 @@ import useScroll from "@/lib/hooks/use-scroll";
 import { useSignInModal } from "./sign-in-modal";
 import UserDropdown from "./user-dropdown";
 import { Session } from "next-auth";
+import Aptonic from "../shared/icons/aptonic";
 
 export default function NavBar() {
   const { SignInModal, setShowSignInModal } = useSignInModal();
@@ -23,14 +24,7 @@ export default function NavBar() {
       >
         <div className="mx-5 flex h-16 max-w-screen-xl items-center justify-between xl:mx-auto">
           <Link href="/" className="flex items-center font-display text-2xl">
-            <Image
-              src="/logo.png"
-              alt="Precedent logo"
-              width="30"
-              height="30"
-              className="mr-2 rounded-sm"
-            ></Image>
-            <p>Precedent</p>
+            <div className="opacity-70"><Aptonic /></div>
           </Link>
           <div>
           </div>

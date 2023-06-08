@@ -5,12 +5,10 @@ import Balancer from "react-wrap-balancer";
 export default function Card({
   title,
   description,
-  demo,
   large,
 }: {
   title: string;
   description: string;
-  demo: ReactNode;
   large?: boolean;
 }) {
   return (
@@ -19,7 +17,6 @@ export default function Card({
         large ? "md:col-span-2" : ""
       }`}
     >
-      <div className="flex h-60 items-center justify-center">{demo}</div>
       <div className="mx-auto max-w-md text-center">
         <h2 className="bg-gradient-to-br from-black to-stone-500 bg-clip-text font-display text-xl font-bold text-transparent md:text-3xl md:font-normal">
           <Balancer>{title}</Balancer>
