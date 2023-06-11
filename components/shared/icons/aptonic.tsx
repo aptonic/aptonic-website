@@ -1,6 +1,6 @@
 export default function Aptonic({ className }: { className?: string }) {
     return (
-        <svg width="119px" height="27px" viewBox="0 0 119 27" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <svg className={className} width="119px" height="27px" viewBox="0 0 119 27" version="1.1" xmlns="http://www.w3.org/2000/svg">
             <title>Group</title>
             <defs>
                 <filter id="filter-1">
