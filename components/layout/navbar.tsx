@@ -25,10 +25,10 @@ export default function NavBar() {
             <Link href="/" className={usePathname() == '/' ? 'font-bold' : 'font-normal'}>
               Home
             </Link>
-            <Link href="/blog" className={usePathname().startsWith('/blog') ? 'font-bold' : 'font-normal'}>
+            <Link href="/blog" className={usePathname()?.startsWith('/blog') ? 'font-bold' : 'font-normal'}>
               Blog
             </Link>
-            <Link href="/support" className={usePathname().startsWith('/support') ? 'font-bold' : 'font-normal'}>
+            <Link href="/support" className={usePathname()?.startsWith('/support') ? 'font-bold' : 'font-normal'}>
               Support
             </Link>
           </div>
