@@ -41,7 +41,7 @@ export default async function Home() {
               </h1>
             </div>
             <div
-              className="mt-6 animate-fade-up text-center text-gray-500 opacity-0 md:text-xl"
+              className="mt-6 animate-fade-up text-center font-light text-gray-500 opacity-0 md:text-xl"
               style={{
                 animationDelay: "0.25s",
                 animationFillMode: "forwards",
