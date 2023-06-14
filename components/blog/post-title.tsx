@@ -1,7 +1,7 @@
 export default function PostTitle({ children }) {
   return (
     <h1
-      className="mt-20 text-6xl md:text-2xl lg:text-2xl font-bold tracking-tighter mb-12 mx-auto max-w-2xl"
+      className="text-2xl mb-3 leading-snug font-display"
       dangerouslySetInnerHTML={{ __html: children }}
     />
   )

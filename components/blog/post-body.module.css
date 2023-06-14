@@ -1,5 +1,6 @@
 .content {
   @apply text-lg leading-relaxed;
+  word-wrap: break-word;
 }
 
 .content p,
@@ -40,7 +41,7 @@
 }
 
 .content h3 {
-  @apply text-2xl mt-8 mb-4 leading-snug;
+  @apply text-2xl mb-3 leading-snug;
 }
 
 .content h4 {
@@ -73,4 +74,9 @@
 
 .content audio {
   @apply w-full;
+}
+
+.content iframe {
+  width: 100% !important;
+  height: 350px !important;
 }
