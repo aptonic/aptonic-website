@@ -5,14 +5,12 @@ import Link from 'next/link'
 
 export default function PostPreview({
   title,
-  coverImage,
   date,
   content,
-  author,
   slug,
 }) {
   return (
-    <div>
+    <div className='mt-40'>
       <h3 className="text-3xl mb-3 leading-snug font-display">
         <Link
           href={`/blog/${slug}`}

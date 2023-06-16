@@ -79,4 +79,5 @@
 .content iframe {
   width: 100% !important;
   height: 350px !important;
+  @apply sm:max-w-xl;
 }
