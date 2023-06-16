@@ -6,7 +6,7 @@ import Balancer from "react-wrap-balancer";
 export default async function Home() {
   return (
     <>
-      <div className="z-10 mt-20 px-5">
+      <div className="mt-20 px-5">
         <div className="flex flex-col text-center md:flex-row">
           <div
             className="inline-block  animate-fade-up opacity-0"
@@ -50,7 +50,7 @@ export default async function Home() {
         </div>
       </div>
       <div
-        className="z-10 mt-6 w-8/12 animate-fade-up text-center text-gray-500 opacity-0 md:text-xl"
+        className="mt-6 w-8/12 animate-fade-up text-center text-gray-500 opacity-0 md:text-xl"
         style={{
           animationDelay: "0.25s",
           animationFillMode: "forwards",
@@ -61,28 +61,29 @@ export default async function Home() {
         different services, and much more.
       </div>
 
-      <div className="z-10 px-5 mt-10 flex w-full justify-center text-center">
+      <div className="px-5 mt-10 flex justify-center text-center">
         <Balancer>
           <Link className="text-blue-500 underline" href="/blog/dropzone-4-versus-dropzone-3-should-i-upgrade/">Dropzone 4 versus Dropzone 3 - Read Blog Post</Link>
         </Balancer>
       </div>
 
-      <div className="z-10 w-9/12 px-5">
+      <div className="w-9/12 px-5">
         <hr className="my-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
       </div>
 
-      <div className="z-10 flex w-full flex-row items-center justify-center">
+      <div className="flex w-full flex-wrap flex-row items-center justify-center">
         <button
           type="button"
-          className="inline-flex mr-2 rounded-lg bg-gradient-to-br from-purple-600 to-blue-500 px-5 py-3 text-center text-sm font-medium text-white hover:bg-gradient-to-bl">
-          <svg className="fill-current w-4 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+          className="inline-flex mr-2 rounded-lg bg-gradient-to-br from-purple-600 to-blue-500 px-2 py-2 sm:px-5 sm:py-3 text-center text-xs sm:text-sm font-medium text-white hover:bg-gradient-to-bl">
+          <svg className="fill-current w-3 h-4 mr-1 sm:w-4 sm:h-5 sm:mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
           Download Dropzone 4
         </button>
 
-        <button className="inline-flex mr-2 group relative items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-purple-600 to-blue-500 p-0.5 text-sm font-medium text-gray-900 hover:text-white group-hover:from-purple-600 group-hover:to-blue-500 dark:text-white">
-          <span className="relative rounded-md bg-white px-5 py-2.5 transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900">
+        <button className="inline-flex mr-2 group relative items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-purple-600 
+        to-blue-500 p-0.5 text-xs sm:text-sm font-medium text-gray-900 hover:text-white group-hover:from-purple-600 group-hover:to-blue-500">
+          <span className="relative rounded-md bg-white px-2 py-1.5 sm:px-5 sm:py-2.5 transition-all duration-75 ease-in group-hover:bg-opacity-0">
             <svg
-              className="mr-2 inline-block h-4 w-4"
+              className="inline-block w-3 h-4 mr-1 sm:w-4 sm:h-4 sm:mr-2"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
