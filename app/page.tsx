@@ -27,7 +27,7 @@ export default async function Home() {
               <h1
                 className="animate-fade-up bg-gradient-to-br from-black to-stone-500 bg-clip-text text-center font-display text-4xl font-bold tracking-[-0.02em] text-transparent opacity-0 drop-shadow-sm md:text-7xl md:leading-[5rem]"
                 style={{
-                  animationDelay: "0.15s",
+                  animationDelay: "0.25s",
                   animationFillMode: "forwards",
                 }}
               >
@@ -40,7 +40,7 @@ export default async function Home() {
             <div
               className="mt-6 animate-fade-up text-center font-light text-gray-500 opacity-0 md:text-xl"
               style={{
-                animationDelay: "0.25s",
+                animationDelay: "0.35s",
                 animationFillMode: "forwards",
               }}
             >
@@ -50,59 +50,90 @@ export default async function Home() {
         </div>
       </div>
       <div
-        className="mt-6 w-8/12 animate-fade-up text-center font-light text-gray-500 opacity-0 md:text-xl"
+        className="mt-6 w-[20rem]  animate-fade-up text-center font-light text-gray-500 opacity-0 md:w-[45rem] md:text-xl"
         style={{
-          animationDelay: "0.25s",
+          animationDelay: "0.45s",
           animationFillMode: "forwards",
         }}
       >
-                <Balancer>
         Dropzone is a productivity app for the Mac that makes it faster and
         easier to move and copy files, launch applications, upload to many
         different services, and much more.
-        </Balancer>
       </div>
 
-      <div className="px-5 mt-10 flex justify-center text-center">
+      <div
+        className="mt-10 flex animate-fade-up justify-center px-5 text-center opacity-0"
+        style={{
+          animationDelay: "0.55s",
+          animationFillMode: "forwards",
+        }}
+      >
         <Balancer>
-          <Link className="text-blue-500 underline" href="/blog/dropzone-4-versus-dropzone-3-should-i-upgrade/">Dropzone 4 versus Dropzone 3 - Read Blog Post</Link>
+          <Link
+            className="text-blue-400 underline"
+            href="/blog/dropzone-4-versus-dropzone-3-should-i-upgrade/"
+          >
+            Dropzone 4 versus Dropzone 3 - Read Blog Post
+          </Link>
         </Balancer>
       </div>
 
-      <div className="w-9/12 px-5">
-        <hr className="my-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
-      </div>
+      <div className="w-9/12 animate-fade-up opacity-0 px-5" style={{
+          animationDelay: "0.55s",
+          animationFillMode: "forwards",
+        }}>
 
-      <div className="flex w-full flex-wrap flex-row items-center justify-center">
-        <button
-          type="button"
-          className="inline-flex mr-2 rounded-lg bg-gradient-to-br from-purple-600 to-blue-500 px-2 py-2 sm:px-5 sm:py-3 text-center text-xs sm:text-sm font-medium text-white hover:bg-gradient-to-bl">
-          <svg className="fill-current w-3 h-4 mr-1 sm:w-4 sm:h-5 sm:mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
-          Download Dropzone 4
-        </button>
+        <div className="px-5">
+          <hr className="my-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
+        </div>
 
-        <button className="inline-flex mr-2 group relative items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-purple-600 
-        to-blue-500 p-0.5 text-xs sm:text-sm font-medium text-gray-900 hover:text-white group-hover:from-purple-600 group-hover:to-blue-500">
-          <span className="relative rounded-md bg-white px-2 py-1.5 sm:px-5 sm:py-2.5 transition-all duration-75 ease-in group-hover:bg-opacity-0">
-            <svg
-              className="inline-block w-3 h-4 mr-1 sm:w-4 sm:h-4 sm:mr-2"
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
+        <div className="flex w-full flex-row flex-wrap items-center justify-center gap-y-5">
+
+          <div className="grid text-center">
+            <button
+              type="button"
+              className="mr-2 inline-flex rounded-lg bg-gradient-to-br from-purple-600 to-blue-500 px-8 py-4 text-center text-sm font-medium text-white hover:bg-gradient-to-bl"
             >
-              <circle cx="9" cy="21" r="1"></circle>
-              <circle cx="20" cy="21" r="1"></circle>
-              <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
-            </svg>
-            Buy Dropzone 4
-          </span>
-        </button>
+              <svg
+                className="mr-2 h-5 w-4 fill-current"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+              >
+                <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+              </svg>
+              Download Dropzone 4
+            </button>
+            <span className="text-sm text-gray-500 pt-2">Version 4.6.1</span>
+          </div>
+          
+          <div className="grid text-center">
+            <button
+              className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-purple-600 
+            to-blue-500 p-0.5 text-sm font-medium text-gray-900 hover:text-white group-hover:from-purple-600 group-hover:to-blue-500"
+            >
+              <span className="relative rounded-md bg-white px-5 py-3.5 transition-all duration-75 ease-in group-hover:bg-opacity-0">
+                <svg
+                  className="mr-2 inline-block h-4 w-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <circle cx="9" cy="21" r="1"></circle>
+                  <circle cx="20" cy="21" r="1"></circle>
+                  <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                </svg>
+                <span>Buy Dropzone 4 for $40</span>
+              </span>
+            </button>
+            <span className="text-sm text-gray-500 pt-2">Dropzone 4 Pro Features</span>
+          </div>
+        </div>
       </div>
     </>
   );
