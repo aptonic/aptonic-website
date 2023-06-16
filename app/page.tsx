@@ -50,15 +50,17 @@ export default async function Home() {
         </div>
       </div>
       <div
-        className="mt-6 w-8/12 animate-fade-up text-center text-gray-500 opacity-0 md:text-xl"
+        className="mt-6 w-8/12 animate-fade-up text-center font-light text-gray-500 opacity-0 md:text-xl"
         style={{
           animationDelay: "0.25s",
           animationFillMode: "forwards",
         }}
       >
+                <Balancer>
         Dropzone is a productivity app for the Mac that makes it faster and
         easier to move and copy files, launch applications, upload to many
         different services, and much more.
+        </Balancer>
       </div>
 
       <div className="px-5 mt-10 flex justify-center text-center">
@@ -90,9 +92,9 @@ export default async function Home() {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <circle cx="9" cy="21" r="1"></circle>
               <circle cx="20" cy="21" r="1"></circle>
