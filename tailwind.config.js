@@ -12,6 +12,7 @@ module.exports = {
         display: ["var(--font-sf)", "system-ui", "sans-serif"],
         default: ["var(--font-inter)", "system-ui", "sans-serif"],
         light: ["var(--font-sf-light)", "system-ui", "sans-serif"],
+        roboto: ["var(--font-roboto)", "system-ui", "sans-serif"]
       },
       animation: {
         // Fade up and down

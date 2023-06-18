@@ -1,6 +1,6 @@
 import "./globals.css";
 import cx from "classnames";
-import { sfPro, sfProLight, inter } from "./fonts";
+import { sfPro, sfProLight, inter, roboto } from "./fonts";
 import Footer from "@/components/layout/footer";
 import Navbar from "@/components/layout/navbar";
 import Paddle from "@/components/shared/paddle";
@@ -29,8 +29,8 @@ export default async function RootLayout({
     <html lang="en">
       <Paddle />
 
-      <body className={cx(sfPro.variable, sfProLight.variable, inter.variable)}>
-        <div className="fixed -z-10 h-screen w-full bg-gradient-to-br from-indigo-50 via-white to-cyan-100" />
+      <body className={cx(sfPro.variable, sfProLight.variable, roboto.variable, inter.variable)}>
+        <div className="fixed -z-10 h-screen w-full bg-gradient-to-tl  from-violet-100 via-white to-violet-100" />
         <Navbar isBlog={false} />
         <main className="flex min-h-screen w-full flex-col items-center">
           {children}
