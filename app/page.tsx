@@ -78,17 +78,18 @@ export default async function Home() {
         </Balancer>
       </div>
 
-      <div className="w-9/12 animate-fade-up opacity-0 px-5" style={{
+      <div
+        className="w-9/12 animate-fade-up px-5 opacity-0"
+        style={{
           animationDelay: "0.55s",
           animationFillMode: "forwards",
-        }}>
-
+        }}
+      >
         <div className="px-5">
           <hr className="my-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
         </div>
 
         <div className="flex w-full flex-row flex-wrap items-center justify-center gap-y-5">
-
           <div className="grid text-center">
             <button
               type="button"
@@ -103,37 +104,89 @@ export default async function Home() {
               </svg>
               Download Dropzone 4
             </button>
-            <span className="text-sm text-gray-500 pt-2">Version 4.6.1</span>
+            <span className="pt-2 text-sm text-gray-500">Version 4.6.1</span>
           </div>
-          
+
           <div className="grid text-center">
-            <button
-              className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-purple-600 
+            <a href="#!" className="buy ctabutton paddle_button" data-product="613556" data-theme="none">
+              <button
+                className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-purple-600 
             to-blue-500 p-0.5 text-sm font-medium text-gray-900 hover:text-white group-hover:from-purple-600 group-hover:to-blue-500"
-            >
-              <span className="relative rounded-md bg-white px-5 py-3.5 transition-all duration-75 ease-in group-hover:bg-opacity-0">
-                <svg
-                  className="mr-2 inline-block h-4 w-4"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <circle cx="9" cy="21" r="1"></circle>
-                  <circle cx="20" cy="21" r="1"></circle>
-                  <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
-                </svg>
-                <span>Buy Dropzone 4 for $40</span>
-              </span>
-            </button>
-            <span className="text-sm text-gray-500 pt-2">Dropzone 4 Pro Features</span>
+              >
+                <span className="relative rounded-md bg-white px-5 py-3.5 transition-all duration-75 ease-in group-hover:bg-opacity-0">
+                  <svg
+                    className="mr-2 inline-block h-4 w-4"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <circle cx="9" cy="21" r="1"></circle>
+                    <circle cx="20" cy="21" r="1"></circle>
+                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                  </svg>
+                  <span>Buy Dropzone 4 for $40</span>
+                </span>
+              </button>
+            </a>
+
+            <span className="pt-2 text-sm text-gray-500">
+              Dropzone 4 Pro Features
+            </span>
           </div>
         </div>
+
+        <div className="mt-10 flex justify-center text-neutral-600">
+          <ul className="max-w-xl  list-disc px-10 py-2 text-left sm:w-4/5">
+            <li className="py-2">Runs on macOS 10.15 and later</li>
+            <li className="py-2">
+              Free to use and includes a 14 day Dropzone 4 Pro trial
+            </li>
+            <li className="py-2">
+              Unlock all Dropzone 4 Pro features by purchasing Dropzone 4 Pro
+              Lifetime for $40 or start a Dropzone 4 Pro subscription for only
+              $1.99/month
+            </li>
+            <li className="py-2">
+              Up to 30% discount if upgrading from Dropzone 3. Redeem your
+              discount here
+            </li>
+          </ul>
+        </div>
+
+        <div className="mb-3 mt-10 text-center text-sm text-gray-500">
+          <p>Or grab Dropzone 4 on Setapp or the Mac App Store</p>
+        </div>
+
+        <div className="flex w-full flex-row flex-wrap justify-center gap-y-5 text-center">
+          <Link href="https://go.setapp.com/stp88?refAppID=155&stc=Aptonic%20Website&utm_medium=available_on_setapp_button&utm_source=155&utm_campaign=https://aptonic.com">
+            <Image
+              className="mr-2"
+              src="/download-setapp.png"
+              alt="Download on Setapp"
+              width="220"
+              height="56"
+            />
+          </Link>
+
+          <Link href="https://apps.apple.com/in/app/dropzone-4/id1485052491?mt=12">
+            <Image
+              src="/download-mas.png"
+              alt="Download on the Mac App Store"
+              width="220"
+              height="56"
+            />
+          </Link>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
       </div>
     </>
   );
