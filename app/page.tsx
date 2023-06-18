@@ -198,7 +198,7 @@ export default async function Home() {
             <div className="w-full px-10 py-5 text-center lg:w-1/3">
               <div className="min-h-full block max-w-sm rounded-lg border border-gray-200 bg-white p-6 shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                 <p className="font-normal text-gray-700">
-                  &ldquo;Now that the best parts of Dropzone 4 are free, there's
+                  &ldquo;Now that the best parts of Dropzone 4 are free, there&apos;s
                   simply no reason not to install this must-have menubar
                   utility.&rdquo;
                 </p>
@@ -209,8 +209,8 @@ export default async function Home() {
               <p className="font-normal text-gray-700">
                 &ldquo;Dropzone catapults drag and drop into the twenty-first century
                 with one-stop-shop access to files and applications, timesaving
-                actions, and effortless menu bar access. Install it, and you'll
-                forget all about your Mac's Dock and Launchpad.&rdquo;
+                actions, and effortless menu bar access. Install it, and you&apos;ll
+                forget all about your Mac&apos;s Dock and Launchpad.&rdquo;
                 </p>
               </div>
             </div>
