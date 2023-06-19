@@ -196,8 +196,8 @@ export default async function Home() {
         <div className="mx-auto max-w-screen-xl px-2 text-sm">
           <div className="-mx-2 flex flex-wrap">
             <div className="w-full px-10 py-5 text-center lg:w-1/3">
-              <div className="min-h-full block max-w-sm rounded-lg border border-gray-200 bg-white p-6 shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <p className="font-normal text-gray-700">
+              <div className="min-h-full block max-w-sm rounded-lg border border-gray-200 bg-white p-6  hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                <p className="font-roboto text-gray-700">
                   &ldquo;Now that the best parts of Dropzone 4 are free, there&apos;s
                   simply no reason not to install this must-have menubar
                   utility.&rdquo;
@@ -205,8 +205,8 @@ export default async function Home() {
               </div>
             </div>
             <div className="w-full px-10 py-5 text-center lg:w-1/3">
-              <div className="min-h-full block max-w-sm rounded-lg border border-gray-200 bg-white p-6 shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-              <p className="font-normal text-gray-700">
+              <div className="min-h-full block max-w-sm rounded-lg border border-gray-200 bg-white p-6 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+              <p className="font-roboto text-gray-700">
                 &ldquo;Dropzone catapults drag and drop into the twenty-first century
                 with one-stop-shop access to files and applications, timesaving
                 actions, and effortless menu bar access. Install it, and you&apos;ll
@@ -215,8 +215,8 @@ export default async function Home() {
               </div>
             </div>
             <div className="w-full px-10 py-5 text-center lg:w-1/3">
-              <div className="min-h-full block max-w-sm rounded-lg border border-gray-200 bg-white p-6 shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <p className="font-normal text-gray-700">
+              <div className="min-h-full block max-w-sm rounded-lg border border-gray-200 bg-white p-6 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                <p className="font-roboto text-gray-700">
                   &ldquo;Dropzone provides fantastic shortcuts for moving, copying,
                   uploading files and performing various tasks. Everything is
                   handled via drag-and-drop, saving you time with common, tedious
