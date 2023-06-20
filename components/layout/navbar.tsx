@@ -1,14 +1,8 @@
 'use client'
 
-import Image from "next/image";
 import Link from "next/link";
-import useScroll from "@/lib/hooks/use-scroll";
-import { useSignInModal } from "./sign-in-modal";
-import UserDropdown from "./user-dropdown";
-import { Session } from "next-auth";
 import Aptonic from "../shared/icons/aptonic";
 import { usePathname } from 'next/navigation'
-
 
 export default function NavBar({isBlog}) {
 
@@ -24,13 +18,13 @@ export default function NavBar({isBlog}) {
             <Aptonic className="ml-5" />
           </Link>
           <div className="flex justify-end gap-10 mr-10 md:gap-20 md:mr-20">
-            <Link href="/" className={`invisible sm:visible ${usePathname() == '/' ? 'font-bold' : 'font-normal'}`}>
+            <Link href="/" className={`w-[46px] invisible sm:visible ${usePathname() == '/' ? 'font-bold ' : 'font-normal'}`}>
               Home
             </Link>
-            <Link href="/blog" className={usePathname()?.startsWith('/blog') ? 'font-bold' : 'font-normal'}>
+            <Link href="/blog" className={`w-[32px] ${usePathname()?.startsWith('/blog') ? 'font-bold' : 'font-normal'}`}>
               Blog
             </Link>
-            <Link href="/support" className={usePathname()?.startsWith('/support') ? 'font-bold' : 'font-normal'}>
+            <Link  href="/support" className={`w-[58px] ${usePathname()?.startsWith('/support') ? 'font-bold' : 'font-normal'}`}>
               Support
             </Link>
           </div>

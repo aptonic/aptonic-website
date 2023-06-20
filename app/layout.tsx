@@ -27,9 +27,7 @@ export default async function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Paddle />
-
-      <body className={cx(sfPro.variable, sfProLight.variable, roboto.variable, inter.variable)}>
+      <body className={`overflow-scroll ${cx(sfPro.variable, sfProLight.variable, roboto.variable, inter.variable)}`}>
         <div className="fixed -z-10 h-screen w-full bg-gradient-to-tl  from-violet-100 via-white to-violet-100" />
         <Navbar isBlog={false} />
         <main className="flex min-h-screen w-full flex-col items-center">
@@ -37,6 +35,7 @@ export default async function RootLayout({
         </main>
         <Footer />
       </body>
+      <Paddle />
     </html>
   );
 }

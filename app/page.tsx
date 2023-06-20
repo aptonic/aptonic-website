@@ -62,7 +62,7 @@ export default async function Home() {
       </div>
 
       <div
-        className="mt-10 flex animate-fade-up justify-center px-5 text-center opacity-0"
+        className="mt-10  w-full flex animate-fade-up justify-center px-8 text-center opacity-0"
         style={{
           animationDelay: "0.55s",
           animationFillMode: "forwards",
@@ -79,7 +79,7 @@ export default async function Home() {
       </div>
 
       <div
-        className="w-9/12 animate-fade-up px-5 opacity-0"
+        className="w-9/12 animate-fade-up  opacity-0"
         style={{
           animationDelay: "0.55s",
           animationFillMode: "forwards",
@@ -110,7 +110,7 @@ export default async function Home() {
           <div className="grid text-center">
             <a
               href="#!"
-              className="buy ctabutton paddle_button"
+              className="paddle_button"
               data-product="613556"
               data-theme="none"
             >
@@ -147,14 +147,14 @@ export default async function Home() {
         </div>
 
         <div className="mt-10 flex justify-center text-neutral-600">
-          <ul className="max-w-xl  list-disc px-10 py-2 text-left sm:w-4/5">
+          <ul className="max-w-xl list-disc px-10 py-2 text-left sm:w-4/5">
             <li className="py-2">Runs on macOS 10.15 and later</li>
             <li className="py-2">
               Free to use and includes a 14 day Dropzone 4 Pro trial
             </li>
             <li className="py-2">
-              Unlock all Dropzone 4 Pro features by purchasing Dropzone 4 Pro
-              Lifetime for $40 or start a Dropzone 4 Pro subscription for only
+              Unlock all Dropzone 4 Pro features by <a href="#!" className="paddle_button text-blue-400 underline" data-product="613556" data-theme="none">purchasing Dropzone 4 Pro
+              Lifetime</a> for $40 or <a href="#!" className="paddle_button text-blue-400 underline" data-product="620999" data-theme="none" data-init="true">start a Dropzone 4 Pro subscription</a> for only
               $1.99/month
             </li>
             <li className="py-2">
@@ -193,9 +193,9 @@ export default async function Home() {
           <hr className="my-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
         </div>
 
-        <div className="mx-auto max-w-screen-xl px-2 text-sm">
+        <div className="mx-auto max-w-screen-xl text-sm">
           <div className="-mx-2 flex flex-wrap">
-            <div className="w-full px-10 py-5 text-center lg:w-1/3">
+            <div className="w-full flex justify-center md:px-5 py-5 text-center md:w-1/3">
               <div className="min-h-full block max-w-sm rounded-lg border border-gray-200 bg-white p-6  hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                 <p className="font-roboto text-gray-700">
                   &ldquo;Now that the best parts of Dropzone 4 are free, there&apos;s
@@ -204,7 +204,7 @@ export default async function Home() {
                 </p>
               </div>
             </div>
-            <div className="w-full px-10 py-5 text-center lg:w-1/3">
+            <div className="w-full flex justify-center md:px-5 py-5 text-center md:w-1/3">
               <div className="min-h-full block max-w-sm rounded-lg border border-gray-200 bg-white p-6 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
               <p className="font-roboto text-gray-700">
                 &ldquo;Dropzone catapults drag and drop into the twenty-first century
@@ -214,7 +214,7 @@ export default async function Home() {
                 </p>
               </div>
             </div>
-            <div className="w-full px-10 py-5 text-center lg:w-1/3">
+            <div className="w-full flex justify-center md:px-5 py-5 text-center md:w-1/3">
               <div className="min-h-full block max-w-sm rounded-lg border border-gray-200 bg-white p-6 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                 <p className="font-roboto text-gray-700">
                   &ldquo;Dropzone provides fantastic shortcuts for moving, copying,
@@ -235,8 +235,8 @@ export default async function Home() {
           <h1 className="text-3xl mb-10 font-roboto">Dropzone makes it faster and easier to:</h1>
         </div>
 
-        <div className="mx-auto flex max-w-screen-xl flex-wrap px-2 text-sm text-gray-500">
-          <div className="features-left w-full px-10 py-5 text-center sm:w-1/3">
+        <div className="mx-auto flex max-w-screen-xl flex-wrap px-2 text-sm text-gray-500 whitespace-nowrap">
+          <div className="w-full px-10 md:py-5 text-center md:w-1/3">
             <ul>
               <li className="flex items-center py-1">
                 <Image
@@ -263,7 +263,8 @@ export default async function Home() {
                   width={50}
                   height={50}
                 />
-                <span className="pl-3">Install Applications</span>
+                <span className="pl-3 lg:block sm:block md:hidden">Install Applications</span>
+                <span className="pl-3 hidden sm:hidden md:block lg:hidden">Install Apps</span>
               </li>
               <li className="flex items-center py-1">
                 <Image
@@ -272,7 +273,8 @@ export default async function Home() {
                   width={50}
                   height={50}
                 />
-                <span className="pl-3">Launch Applications</span>
+                <span className="pl-3 lg:block sm:block md:hidden">Launch Applications</span>
+                <span className="pl-3 hidden sm:hidden md:block lg:hidden">Launch Apps</span>
               </li>
               <li className="flex items-center py-1">
                 <Image
@@ -286,7 +288,7 @@ export default async function Home() {
             </ul>
           </div>
 
-          <div className="w-full px-10 py-5 text-center sm:w-1/3">
+          <div className="w-full px-10 md:py-5 text-center md:w-1/3">
             <ul>
               <li className="flex items-center py-1">
                 <Image
@@ -336,7 +338,7 @@ export default async function Home() {
             </ul>
           </div>
 
-          <div className="w-full px-10 py-5 text-center sm:w-1/3">
+          <div className="w-full px-10 md:py-5 text-center md:w-1/3">
             <ul>
               <li className="flex items-center py-1">
                 <Image
