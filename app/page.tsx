@@ -520,59 +520,59 @@ export default async function Home() {
           name={"Wairami from United States"}
           src={"Mac App Store Review"}
         >
-          I literally use this every hour I'm at my laptop... Which is roughly
+          {`I literally use this every hour I'm at my laptop... Which is roughly
           14 hours a day. This app is game-changing for me. I know it has uses
           other than "store it here to paste where you want later", but that's
           mainly what I use it for, and man... it does it's job superbly. I
-          can't recommend this app enough for MacBook users.
+          can't recommend this app enough for MacBook users.`}
         </DzReviewCard>
 
         <DzReviewCard
           name={"Ronny411 from United Kingdom"}
           src={"Mac App Store Review"}
         >
-          Such a handy little app, if you like a clean and organised working
+          {`Such a handy little app, if you like a clean and organised working
           environment. I study and work full time; this lets me organise things
-          rapidly and without any fuss. Couldn’t recommend it more.
+          rapidly and without any fuss. Couldn't recommend it more.`}
         </DzReviewCard>
 
         <DzReviewCard
           name={"DrumGuy68 from United States"}
           src={"Mac App Store Review"}
         >
-          This app is great for streamlining tasks that you would do on your Mac
+          {`This app is great for streamlining tasks that you would do on your Mac
           everyday. It also helps keeps the desktop clutter down as you can drag
           an drop whatever you're working with and place it in with out having
           to open up a bunch of folders to get to it. (Pre-setup is required)
-          Once you have it setup, it's a snap.
+          Once you have it setup, it's a snap.`}
         </DzReviewCard>
 
         <DzReviewCard
           name={"donkey2thekong from United States"}
           src={"Mac App Store Review"}
         >
-          This App has changed the way I do everything!! It is hands down the
+          {`This App has changed the way I do everything!! It is hands down the
           best app on the market and is the now the app against which I rate all
-          others. Dropzone is a 6 for sure!!
+          others. Dropzone is a 6 for sure!!`}
         </DzReviewCard>
 
         <DzReviewCard
           name={"barryforque from United States"}
           src={"Mac App Store Review"}
         >
-          Great, handsome and easy to use. I love the different Dropzone
+          {`Great, handsome and easy to use. I love the different Dropzone
           functions like automatic copying to folders and automatic moving to
           others. I use it to do no-fuss backups of work files using my Dropbox
-          account. Way simpler than Finder or keeping shortcuts on the desktop.
+          account. Way simpler than Finder or keeping shortcuts on the desktop.`}
         </DzReviewCard>
 
         <DzReviewCard
           name={"german1608 from Panama"}
           src={"Mac App Store Review"}
         >
-          This is one of the apps that once you use it you can't live without
+          {`This is one of the apps that once you use it you can't live without
           it. It saves a bunch of steps when moving files around. Highly
-          recommended.
+          recommended.`}
         </DzReviewCard>
 
         <div className="px-5">
@@ -592,7 +592,7 @@ export default async function Home() {
             height={133}
           />
 
-          <div className="mb-3 mt-16 text-center text-base text-gray-500">
+          <div className="mb-3 mt-10 text-center text-base text-gray-500">
             <p>
               Easily extend Dropzone by installing more actions in just a few
               clicks.
