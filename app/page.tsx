@@ -580,7 +580,7 @@ export default async function Home() {
         </div>
 
         <div className="mx-auto max-w-screen-xl text-center">
-          <h1 className="mb-10 font-roboto text-3xl">There's more...</h1>
+          <h1 className="mb-10 font-roboto text-3xl">There&apos;s more...</h1>
         </div>
 
         <div className="mx-auto max-w-screen-xl text-center">
@@ -608,7 +608,7 @@ export default async function Home() {
 
             <br />
 
-            <p>We can't wait to see what you make.</p>
+            <p>We can&apos;t wait to see what you make.</p>
           </div>
 
           <div className="mx-auto mt-12 flex max-w-md text-center text-base font-bold text-blue-500 justify-center">
