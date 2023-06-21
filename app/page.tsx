@@ -19,6 +19,7 @@ export default async function Home() {
             <Image
               alt="Dropzone 4 Icon"
               src={appIcon}
+              priority={true}
               className="inline-block w-44 md:w-64"
             />
           </div>
