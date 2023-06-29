@@ -10,6 +10,8 @@ export default function NavBar({isBlog}) {
     isBlog ? "justify-between" : "justify-around"
   }`;
 
+  const pathname = usePathname();
+
   return (
     <>
       <div className="fixed z-20 top-0 w-full border-b border-gray-200 bg-white/50 backdrop-blur-xl flex justify-center">
@@ -21,10 +23,10 @@ export default function NavBar({isBlog}) {
             <Link href="/" className={`w-[46px] invisible sm:visible ${usePathname() == '/' ? 'font-bold ' : 'font-normal'}`}>
               Home
             </Link>
-            <Link href="/blog" className={`w-[32px] ${usePathname()?.startsWith('/blog') ? 'font-bold' : 'font-normal'}`}>
+            <Link href="/blog" className={`w-[32px] ${pathname?.startsWith('/blog') ? 'font-bold' : 'font-normal'}`}>
               Blog
             </Link>
-            <Link href="/support" className={`w-[58px] ${(usePathname()?.startsWith('/support') || usePathname()?.startsWith('/actions')) ? 'font-bold' : 'font-normal'}`}>
+            <Link href="/support" className={`w-[58px] ${(pathname?.startsWith('/support') || pathname?.startsWith('/actions')) ? 'font-bold' : 'font-normal'}`}>
               Support
             </Link>
           </div>
