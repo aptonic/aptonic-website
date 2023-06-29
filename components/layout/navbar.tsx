@@ -24,7 +24,7 @@ export default function NavBar({isBlog}) {
             <Link href="/blog" className={`w-[32px] ${usePathname()?.startsWith('/blog') ? 'font-bold' : 'font-normal'}`}>
               Blog
             </Link>
-            <Link  href="/support" className={`w-[58px] ${usePathname()?.startsWith('/support') ? 'font-bold' : 'font-normal'}`}>
+            <Link href="/support" className={`w-[58px] ${(usePathname()?.startsWith('/support') || usePathname()?.startsWith('/actions')) ? 'font-bold' : 'font-normal'}`}>
               Support
             </Link>
           </div>

@@ -1,7 +1,6 @@
 import Image from "next/image";
-  
-export default function Page() {
 
+export default function Page() {
   return (
     <>
       <div className="z-10 px-5">
@@ -12,15 +11,15 @@ export default function Page() {
               src="/app_icon.png"
               width={256}
               height={256}
-              className="inline-block"
+              className="inline-block mt-20"
               style={{
                 animationDelay: "0.25s",
                 animationFillMode: "forwards",
               }}
             />
           </div>
-          </div>
-          </div>
-          </>
-          )
-  }
+        </div>
+      </div>
+    </>
+  );
+}
