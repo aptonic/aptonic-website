@@ -34,8 +34,8 @@ export default async function RootLayout({
           {children}
         </main>
         <Footer />
+        <Paddle />
       </body>
-      <Paddle />
     </html>
   );
 }
