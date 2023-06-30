@@ -45,8 +45,8 @@ export default function ActionsPage() {
         </div>
 
         {data.map((item, index) => (
-          <div>
-            <div key={index} className="mb-5 flex flex-row items-center">
+          <div key={index} >
+            <div className="mb-5 flex flex-row items-center">
               <img src={item.icon} alt={item.name} className="mr-5 w-14" />
               <div>
                 <h2 className="text-xl text-violet-900">{item.name}</h2>
