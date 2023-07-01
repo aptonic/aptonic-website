@@ -36,7 +36,7 @@ export default async function Home() {
                 }}
               >
                 Dropzone{" "}
-                <div className="inline-block rounded-md bg-indigo-500 p-1 py-0 font-light font-thin leading-none text-white md:rounded-lg md:p-3 md:py-0">
+                <div className="inline-block rounded-md bg-purple-500 p-1 py-0 font-light font-thin leading-none text-white md:rounded-lg md:p-3 md:py-0">
                   4
                 </div>
               </h1>

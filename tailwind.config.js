@@ -12,7 +12,22 @@ module.exports = {
         display: ["var(--font-sf)", "system-ui", "sans-serif"],
         default: ["var(--font-inter)", "system-ui", "sans-serif"],
         light: ["var(--font-sf-light)", "system-ui", "sans-serif"],
-        roboto: ["var(--font-roboto)", "system-ui", "sans-serif"]
+        roboto: ["var(--font-roboto)", "system-ui", "sans-serif"],
+      },
+      colors: {
+        purple: {
+          '50': '#f0f2fd',
+          '100': '#e4e8fb',
+          '200': '#cfd5f6',
+          '300': '#b1b8f0',
+          '400': '#9193e8',
+          '500': '#7c77dd',
+          '600': '#7366d2',
+          '700': '#5b4cb6',
+          '800': '#4a4093',
+          '900': '#403976',
+          '950': '#262244',
+        },
       },
       animation: {
         // Fade up and down

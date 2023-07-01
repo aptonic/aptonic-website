@@ -22,8 +22,8 @@ export default function ActionsPage() {
 
   return (
     <>
-      <div className="mt-28 flex flex-col">
-        <div className="flex flex-row items-center">
+      <div className="mt-28 mx-10 flex flex-col">
+        <div className="flex flex-row items-start md:items-center">
           <Image
             src="/devicon.png"
             alt="Dropzone Action Development Icon"
@@ -47,11 +47,11 @@ export default function ActionsPage() {
         {data.map((item, index) => (
           <div key={index} >
             <div className="mb-5 flex flex-row items-center">
-              <img src={item.icon} alt={item.name} className="mr-5 w-14" />
+              <img src={item.icon} alt={item.name} className="mr-8 w-[75px]" />
               <div>
                 <h2 className="text-xl text-violet-900">{item.name}</h2>
                 <p className="text-sm text-gray-700">{item.description}</p>
-                <a className="min-w-40 min-h-16 relative float-left font-roboto mt-2 rounded border-b-2 border-purple-800 bg-purple-600 px-1.5 py-0 pb-0 pr-2 pt-1 text-sm leading-6 text-white">
+                <a href={`/actions/${item.name}`} className="min-w-40 min-h-16 relative float-left font-roboto mt-2 rounded border-b-2 border-purple-800 bg-purple-600 px-1.5 py-0 pb-0 pr-2 pt-1 text-sm leading-6 text-white">
                   <svg
                     className="pb-1 mr-1 inline-block"
                     width="20px"

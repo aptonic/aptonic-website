@@ -28,7 +28,7 @@ export default function DzReviewCard({
                 <div className="mb-5 flex items-center">
                   <svg
                     aria-hidden="true"
-                    className="h-7 w-7 text-indigo-500"
+                    className="h-7 w-7 text-purple-600"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@ export default function DzReviewCard({
                   </svg>
                   <svg
                     aria-hidden="true"
-                    className="h-7 w-7 text-indigo-500"
+                    className="h-7 w-7 text-purple-600"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +48,7 @@ export default function DzReviewCard({
                   </svg>
                   <svg
                     aria-hidden="true"
-                    className="h-7 w-7 text-indigo-500"
+                    className="h-7 w-7 text-purple-600"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@ export default function DzReviewCard({
                   </svg>
                   <svg
                     aria-hidden="true"
-                    className="h-7 w-7 text-indigo-500"
+                    className="h-7 w-7 text-purple-600"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +68,7 @@ export default function DzReviewCard({
                   </svg>
                   <svg
                     aria-hidden="true"
-                    className="h-7 w-7 text-indigo-500"
+                    className="h-7 w-7 text-purple-600"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
