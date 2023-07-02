@@ -13,17 +13,20 @@ export default function Install({ params }: { params: { action: string } }) {
       <Image
         alt="Dropzone 4 Icon"
         src="/app_icon.png"
-        width={128}
-        height={128}
+        width={256}
+        height={256}
         className="mt-20 mr-5 inline-block"
       />
       <div>
         <h2 className="text-xl text-violet-900 mt-20 mb-5">
-          Installing {decodeURIComponent(params.action)}
+          Installing {decodeURIComponent(params.action)} action...
         </h2>
-        <p className="text-sm text-gray-700">
+        <p className="text-base text-gray-700 font-medium">
           The action should now download and install automatically.
         </p>
+
+        <p className="pt-5 text-sm">If nothing happens, please ensure Dropzone 4 is installed and running.</p>
+        <p className="text-sm pt-3">You can download Dropzone 4 <a className="underline" href="https://updates.aptonic.com/latest.php">here</a></p>
 
         <a href="/actions" className="text-shadow mt-5 select-none inline-block cursor-pointer rounded-lg border border-gray-300 bg-gradient-to-b from-white to-gray-100 px-4 py-2 text-sm font-medium text-gray-600 transition-all hover:bg-gradient-to-b hover:from-gray-100 hover:to-white active:relative active:translate-y-1">
           Go Back
