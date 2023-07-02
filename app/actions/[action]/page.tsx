@@ -9,7 +9,7 @@ export default function Install({ params }: { params: { action: string } }) {
   }, []);
 
   return (
-    <div className="mt-28 mb-5 flex flex-row items-center">
+    <div className="mt-28 mb-5 flex flex-row items-center text-gray-700">
       <Image
         alt="Dropzone 4 Icon"
         src="/app_icon.png"
@@ -21,15 +21,17 @@ export default function Install({ params }: { params: { action: string } }) {
         <h2 className="text-xl text-violet-900 mt-20 mb-5">
           Installing {decodeURIComponent(params.action)} action...
         </h2>
-        <p className="text-base text-gray-700 font-medium">
+        <p className="text-base font-medium">
           The action should now download and install automatically.
         </p>
 
         <p className="pt-5 text-sm">If nothing happens, please ensure Dropzone 4 is installed and running.</p>
-        <p className="text-sm pt-3">You can download Dropzone 4 <a className="underline" href="https://updates.aptonic.com/latest.php">here</a></p>
+        <p className="text-sm pt-1">You can download Dropzone 4 <a className="underline" href="https://updates.aptonic.com/latest.php">here</a></p>
+
+        <p className="pt-5 text-sm">You can download the action bundle manually <a className="underline" href={`https://github.com/aptonic/dropzone4-actions-zipped/raw/master/${params.action}.dzbundle`}>here</a></p>
 
         <a href="/actions" className="text-shadow mt-5 select-none inline-block cursor-pointer rounded-lg border border-gray-300 bg-gradient-to-b from-white to-gray-100 px-4 py-2 text-sm font-medium text-gray-600 transition-all hover:bg-gradient-to-b hover:from-gray-100 hover:to-white active:relative active:translate-y-1">
-          Go Back
+          Back to Actions List
         </a>
       </div>
     </div>
