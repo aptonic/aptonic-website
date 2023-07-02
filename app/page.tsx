@@ -95,24 +95,25 @@ export default async function Home() {
 
         <div className="flex w-full flex-row flex-wrap items-center justify-center gap-y-5">
           <div className="grid text-center">
-            <button
-              type="button"
-              className="mr-2 inline-flex rounded-lg bg-gradient-to-br from-purple-600 to-blue-500 px-8 py-4 text-center text-sm font-medium text-white hover:bg-gradient-to-bl"
-            >
-              <svg
-                className="mr-2 h-5 w-4 fill-current"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
+            <a href="https://updates.aptonic.com/latest.php">
+              <button
+                type="button"
+                className="mr-2 inline-flex rounded-lg bg-gradient-to-br from-purple-600 to-blue-500 px-8 py-4 text-center text-sm font-medium text-white hover:bg-gradient-to-bl"
               >
-                <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
-              </svg>
-              Download Dropzone 4
-            </button>
+                <svg
+                  className="mr-2 h-5 w-4 fill-current"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                >
+                  <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+                </svg>
+                Download Dropzone 4
+              </button>
+            </a>
             <span className="pt-2 text-sm text-gray-500">Version 4.6.1</span>
           </div>
 
           <div className="grid text-center">
-
             <BuyButton />
 
             <span className="pt-2 text-sm text-gray-500">
@@ -129,9 +130,13 @@ export default async function Home() {
             </li>
             <li className="py-2">
               Unlock all Dropzone 4 Pro features by{" "}
-              <BuyLink product_id={613556}>purchasing Dropzone 4 Pro Lifetime</BuyLink>{" "}
+              <BuyLink product_id={613556}>
+                purchasing Dropzone 4 Pro Lifetime
+              </BuyLink>{" "}
               for $40 or{" "}
-              <BuyLink product_id={620999}>start a Dropzone 4 Pro subscription</BuyLink>{" "}
+              <BuyLink product_id={620999}>
+                start a Dropzone 4 Pro subscription
+              </BuyLink>{" "}
               for only $1.99/month
             </li>
             <li className="py-2">
@@ -570,7 +575,7 @@ export default async function Home() {
             <p>We can&apos;t wait to see what you make.</p>
           </div>
 
-          <div className="mx-auto mt-12 flex max-w-md text-center text-base font-bold text-blue-500 justify-center">
+          <div className="mx-auto mt-12 flex max-w-md justify-center text-center text-base font-bold text-blue-500">
             <Link href="/actions">
               <div className="mx-auto mr-10 flex items-center">
                 <svg

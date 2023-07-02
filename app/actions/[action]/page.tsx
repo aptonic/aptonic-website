@@ -19,7 +19,7 @@ export default function Install({ params }: { params: { action: string } }) {
       />
       <div>
         <h2 className="text-xl text-violet-900 mt-20 mb-5">
-          Installing {decodeURIComponent(params.action)} action...
+          Installing {decodeURIComponent(params.action)} Action...
         </h2>
         <p className="text-base font-medium">
           The action should now download and install automatically.
