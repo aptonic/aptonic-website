@@ -5,8 +5,11 @@ import Balancer from "react-wrap-balancer";
 import DzReviewCard from "@/components/home/dzreview-card";
 import BuyButton from "@/components/home/buy-button";
 import BuyLink from "@/components/home/buy-link";
+import ProFeatures from "@/components/home/pro-features";
 
 export default async function Home() {
+  //const { DemoModal } = ;
+
   return (
     <>
       <div className="mt-20 px-5">
@@ -54,7 +57,7 @@ export default async function Home() {
         </div>
       </div>
       <div
-        className="mt-6 w-[20rem]  animate-fade-up text-center font-light text-gray-500 opacity-0 md:w-[45rem] md:text-xl"
+        className="mt-6 w-[20rem] animate-fade-up text-center font-light text-gray-500 opacity-0 md:w-[45rem] md:text-xl"
         style={{
           animationDelay: "0.45s",
           animationFillMode: "forwards",
@@ -83,7 +86,7 @@ export default async function Home() {
       </div>
 
       <div
-        className="w-9/12 animate-fade-up  opacity-0"
+        className="w-9/12 animate-fade-up opacity-0"
         style={{
           animationDelay: "0.55s",
           animationFillMode: "forwards",
@@ -115,10 +118,7 @@ export default async function Home() {
 
           <div className="grid text-center">
             <BuyButton />
-
-            <span className="pt-2 text-sm text-gray-500">
-              Dropzone 4 Pro Features
-            </span>
+            <ProFeatures />
           </div>
         </div>
 
