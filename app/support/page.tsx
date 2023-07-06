@@ -164,7 +164,7 @@ export default function Page() {
               </div>
             </div>
 
-            <Link href="mailto:support@aptonic.com">
+            <a href="mailto:support@aptonic.com">
               <div className="mt-10 flex items-center">
                 <svg
                   width="40px"
@@ -200,7 +200,7 @@ export default function Page() {
                   </div>
                 </div>
               </div>
-            </Link>
+            </a>
 
             <div className="mt-10 flex items-center">
               <svg
@@ -286,7 +286,7 @@ export default function Page() {
               </div>
             </Link>
 
-            <Link href="mailto:contact@aptonic.com">
+            <a href="mailto:contact@aptonic.com">
               <div className="mt-10 flex items-center">
                 <svg
                   width="40px"
@@ -323,7 +323,7 @@ export default function Page() {
                   </div>
                 </div>
               </div>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
