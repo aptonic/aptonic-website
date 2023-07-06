@@ -156,9 +156,9 @@ export default function Page() {
                 customers)
                 <div className="text-gray-500">
                   If you lost your Dropzone license put your email address in on
-                  this page and we'll send it to you again.
+                  this page and we&apos;ll send it to you again.
                   <br />
-                  Having trouble registering Dropzone? - There's solutions for
+                  Having trouble registering Dropzone? - There&apos;s solutions for
                   that here.
                 </div>
               </div>
@@ -196,7 +196,7 @@ export default function Page() {
                 <div className="ml-5 font-medium text-gray-900">
                   Email Us
                   <div className="text-gray-500">
-                    If you're having problems, email us at: support@aptonic.com
+                    If you&apos;re having problems, email us at: support@aptonic.com
                   </div>
                 </div>
               </div>
