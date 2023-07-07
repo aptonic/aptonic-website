@@ -13,37 +13,40 @@ export default function Page() {
             }}
           >
             <div className="flex items-center">
-              <svg
-                fill="#000000"
-                height="40px"
-                width="40px"
-                version="1.1"
-                id="Capa_1"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 60 60"
-              >
-                <g>
-                  <path
-                    d="M45.563,29.174l-22-15c-0.307-0.208-0.703-0.231-1.031-0.058C22.205,14.289,22,14.629,22,15v30
+              <Link className="flex" href="/intro">
+                <svg
+                  fill="#000000"
+                  height="40px"
+                  width="40px"
+                  version="1.1"
+                  id="Capa_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 60 60"
+                >
+                  <g>
+                    <path
+                      d="M45.563,29.174l-22-15c-0.307-0.208-0.703-0.231-1.031-0.058C22.205,14.289,22,14.629,22,15v30
 		c0,0.371,0.205,0.711,0.533,0.884C22.679,45.962,22.84,46,23,46c0.197,0,0.394-0.059,0.563-0.174l22-15
 		C45.836,30.64,46,30.331,46,30S45.836,29.36,45.563,29.174z M24,43.107V16.893L43.225,30L24,43.107z"
-                  />
-                  <path
-                    d="M30,0C13.458,0,0,13.458,0,30s13.458,30,30,30s30-13.458,30-30S46.542,0,30,0z M30,58C14.561,58,2,45.439,2,30
+                    />
+                    <path
+                      d="M30,0C13.458,0,0,13.458,0,30s13.458,30,30,30s30-13.458,30-30S46.542,0,30,0z M30,58C14.561,58,2,45.439,2,30
 		S14.561,2,30,2s28,12.561,28,28S45.439,58,30,58z"
-                  />
-                </g>
-              </svg>
-              <div className="ml-5 font-medium text-gray-900">
-                Dropzone Introduction Video
-                <div className="text-gray-500">
-                  This short video will teach you the basics of using Dropzone.
+                    />
+                  </g>
+                </svg>
+                <div className="ml-5 font-medium text-gray-900">
+                  Dropzone Introduction Video
+                  <div className="text-gray-500">
+                    This short video will teach you the basics of using
+                    Dropzone.
+                  </div>
                 </div>
-              </div>
+              </Link>
             </div>
 
-            <Link href="/actions">
-              <div className="mt-10 flex items-center">
+            <div className="mt-10 flex items-center">
+              <Link className="flex" href="/actions">
                 <svg
                   width="40px"
                   height="40px"
@@ -70,6 +73,7 @@ export default function Page() {
                     </g>
                   </g>
                 </svg>
+
                 <div className="ml-5 font-medium text-gray-900">
                   Dropzone 4 Add-on Actions
                   <div className="text-gray-500">
@@ -77,8 +81,8 @@ export default function Page() {
                     here.
                   </div>
                 </div>
-              </div>
-            </Link>
+              </Link>
+            </div>
 
             <div className="mt-10 flex items-center">
               <svg
@@ -88,7 +92,6 @@ export default function Page() {
                 version="1.1"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <title>coupon-62</title>
                 <g
                   id="Page-1"
                   stroke="none"
@@ -157,14 +160,14 @@ export default function Page() {
                   If you lost your Dropzone license put your email address in on
                   this page and we&apos;ll send it to you again.
                   <br />
-                  Having trouble registering Dropzone? - There&apos;s solutions for
-                  that here.
+                  Having trouble registering Dropzone? - There&apos;s solutions
+                  for that here.
                 </div>
               </div>
             </div>
 
-            <a href="mailto:support@aptonic.com">
-              <div className="mt-10 flex items-center">
+            <div className="mt-10 flex items-center">
+              <a className="flex" href="mailto:support@aptonic.com">
                 <svg
                   width="40px"
                   height="40px"
@@ -195,11 +198,12 @@ export default function Page() {
                 <div className="ml-5 font-medium text-gray-900">
                   Email Us
                   <div className="text-gray-500">
-                    If you&apos;re having problems, email us at: support@aptonic.com
+                    If you&apos;re having problems, email us at:
+                    support@aptonic.com
                   </div>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
 
             <div className="mt-10 flex items-center">
               <svg
@@ -236,8 +240,8 @@ export default function Page() {
 
             <hr className="my-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
 
-            <Link href="https://forums.aptonic.com">
-              <div className="mt-10 flex items-center">
+            <div className="mt-10 flex items-center">
+              <Link className="flex" href="https://forums.aptonic.com">
                 <svg
                   width="40px"
                   height="40px"
@@ -282,11 +286,11 @@ export default function Page() {
                     check there first.
                   </div>
                 </div>
-              </div>
-            </Link>
+              </Link>
+            </div>
 
-            <a href="mailto:contact@aptonic.com">
-              <div className="mt-10 flex items-center">
+            <div className="mt-10 flex items-center">
+              <a className="flex" href="mailto:contact@aptonic.com">
                 <svg
                   width="40px"
                   height="40px"
@@ -321,8 +325,8 @@ export default function Page() {
                     contact@aptonic.com
                   </div>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
           </div>
         </div>
       </div>
