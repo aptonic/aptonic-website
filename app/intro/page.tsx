@@ -18,7 +18,7 @@ export default function Page() {
       <div className="z-10 mt-28 px-5">
         <div className="flex flex-row">
           <div id="guide">
-            <h2 className="text-xl mb-8">Learn how to use Dropzone</h2>
+            <h2 className="text-xl mb-5">Learn how to use Dropzone</h2>
             <div
               id="video"
               dangerouslySetInnerHTML={{
@@ -26,8 +26,8 @@ export default function Page() {
               }}
             />
 
-            <div className="mt-8">
-              <ul className="list-disc list-inside text-blue-500 marker:text-gray-500">
+            <div className="mt-5">
+              <ul className="list-disc list-inside text-blue-500 leading-loose marker:text-gray-500">
                 <li>
                   <a href="#!" onClick={() => gotoTime(9)}>
                     Using the Dropzone grid
