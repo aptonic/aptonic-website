@@ -46,21 +46,21 @@ export default function Page() {
         </h2>
         <Image
           src="/registration-step1.png"
-          alt="Press F3"
+          alt="Registration Step 1"
           width={694}
           height={462}
         />
         <br />
         <Image
           src="/registration-step2.png"
-          alt="Press F3"
+          alt="Registration Step 2"
           width={694}
           height={462}
         />
         <br />
         <Image
           src="/registration-step3.png"
-          alt="Press F3"
+          alt="Registration Step 3"
           width={694}
           height={462}
         />
@@ -68,7 +68,7 @@ export default function Page() {
         <br />
         <Image
           src="/registration-step4.png"
-          alt="Press F3"
+          alt="Registration Step 4"
           width={694}
           height={462}
         />

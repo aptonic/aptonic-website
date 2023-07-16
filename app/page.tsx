@@ -98,7 +98,7 @@ export default async function Home() {
 
         <div className="flex w-full flex-row flex-wrap items-center justify-center gap-y-5">
           <div className="grid text-center">
-            <a href="https://updates.aptonic.com/latest.php">
+            <a href="https://updates.aptonic.com/dropzone4-latest">
               <button
                 type="button"
                 className="mr-2 inline-flex rounded-lg bg-gradient-to-br from-purple-600 to-blue-500 px-8 py-4 text-center text-sm font-medium text-white hover:bg-gradient-to-bl"
@@ -141,7 +141,7 @@ export default async function Home() {
             </li>
             <li className="py-2">
               Up to 30% discount if upgrading from Dropzone 3. Redeem your
-              discount here
+              discount <Link className="text-blue-400 underline" href="/upgrade">here</Link>
             </li>
           </ul>
         </div>
