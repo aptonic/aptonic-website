@@ -40,7 +40,7 @@ export default function Page() {
 
   return (
     <>
-      <div className="z-10 mt-28 w-6/12 px-5">
+      <div className="z-10 mt-28 sm:w-full md:w-10/12 lg:w-1/2 px-5">
         <h2 className="mb-5 text-xl">
           How to Register Dropzone 4 Pro Lifetime
         </h2>
@@ -82,7 +82,7 @@ export default function Page() {
           box. There are a number of things you can try to fix this:
         </p>
         <br />
-        <ul className="list-inside list-disc leading-loose text-gray-500 marker:text-gray-500">
+        <ul className="list-inside list-disc leading-loose text-gray-500 marker:text-gray-500 mb-6">
           <li>
             First make certain the serial you pasted into the Serial # field is
             the same as what we sent you. A Dropzone serial is in the format
@@ -90,14 +90,14 @@ export default function Page() {
             copy the serial from the email you got by selecting it in the email,
             pressing Cmd-C (copy), then switching back to Dropzone and then
             pressing Cmd-V (paste) once the cursor is flashing in the Serial #
-            field. Check you didn't accidentally paste in extra spaces.
+            field.
           </li>
           <li>
             Another common reason the registration can fail is if you
             accidentally paste the serial number in twice.
           </li>
           <li>
-            Dropzone contacts our server to verify your license so you must be
+            Dropzone contacts our server to check your license so you must be
             connected to the internet for registration to work.
           </li>
           <li>
@@ -116,6 +116,7 @@ export default function Page() {
           </li>
         </ul>
 
+        {error && <div className="text-red-500">{error}</div>}
         <div className="mt-5">
           <form
             id="licenseForm"
@@ -124,7 +125,7 @@ export default function Page() {
             onSubmit={handleSubmit}
           >
             <input
-              className="w-80"
+              className="w-80 mr-3 mb-3"
               type="text"
               name="sn"
               onChange={handleChange}
@@ -132,13 +133,12 @@ export default function Page() {
               required
             />
             <button
-              className="ml-3 rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700"
+              className="rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700"
               type="submit"
             >
               Download License File
             </button>
           </form>
-          {error && <div className="text-red-500">{error}</div>}
           <br />
           <p className="text-gray-500">
             A file named dropzone4-license.txt will be downloaded. After
