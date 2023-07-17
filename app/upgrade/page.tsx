@@ -48,7 +48,7 @@ export default function Page() {
 
   return (
     <>
-      <div className="z-10 mt-28 w-6/12 px-5 text-gray-500">
+      <div className="z-10 mt-28 sm:w-full md:w-10/12 lg:w-1/2 px-5 text-gray-500">
         <h2 className="mb-5 text-xl">Dropzone 4 Pro Upgrade Pricing</h2>
 
         <Image
@@ -88,7 +88,7 @@ export default function Page() {
                 Dropzone 3 Serial Number:
                 <br />
                 <input
-                  className="w-80"
+                  className="w-80 mr-3 mb-3"
                   type="text"
                   name="serial"
                   value={serial}
@@ -97,7 +97,7 @@ export default function Page() {
                 />
               </label>
               <button
-                className="ml-3 rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700"
+                className="rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700"
                 type="submit"
               >
                 Get Discount
@@ -115,7 +115,7 @@ export default function Page() {
                 <div className="w-min border border-slate-400 bg-indigo-100 p-5 text-3xl font-bold text-gray-600">
                   {couponData.coupons.lifetime_coupon}
                 </div>
-                <div className="ml-4 text-2xl">
+                <div className="ml-4 text-sm md:text-2xl">
                   30% discount
                   <br />
                   $28 USD one off
@@ -138,7 +138,7 @@ export default function Page() {
                 <div className="w-min border border-slate-400 bg-violet-100 p-5 text-3xl font-bold text-gray-600">
                   {couponData.coupons.subscription_coupon}
                 </div>
-                <div className="ml-4 text-2xl">
+                <div className="ml-4 text-sm md:text-2xl">
                   15% recurring monthly discount
                   <br />
                   $1.69 USD/month

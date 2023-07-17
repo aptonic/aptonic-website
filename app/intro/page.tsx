@@ -20,9 +20,10 @@ export default function Page() {
           <div id="guide">
             <h2 className="text-xl mb-5">Learn how to use Dropzone</h2>
             <div
+              className="flex sm:w-[620px] md:w-[675px]"
               id="video"
               dangerouslySetInnerHTML={{
-                __html: `<iframe width='853' height='683' src='${videoUrl}' frameborder='0' allowfullscreen=''></iframe>`,
+                __html: `<iframe style="flex-grow: 1; height: 540px;" src='${videoUrl}' frameborder='0' allowfullscreen=''></iframe>`,
               }}
             />
 
