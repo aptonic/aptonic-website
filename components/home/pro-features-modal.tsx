@@ -23,16 +23,16 @@ const DemoModal = ({
           <Image
             src="/Dropzone4-Pro-Heading.png"
             alt="Precedent Logo"
-            className=""
+            className="md:w-96 w-80"
             width={404}
             height={70}
           />
 
-          <p className="text-sm text-gray-500">
+          <p className="md:w-96 w-80 text-sm text-gray-500">
             Get these features when you upgrade to Dropzone 4 Pro
           </p>
 
-          <div className="grid md:grid-cols-3 grid-cols-1 gap-2 pt-10">
+          <div className="grid md:grid-cols-3 grid-cols-1 gap-2 pt-8">
             <div className="flex items-center">
               <Image
                 src="/actions/gdrive.png"

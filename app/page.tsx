@@ -8,8 +8,6 @@ import BuyLink from "@/components/home/buy-link";
 import ProFeatures from "@/components/home/pro-features";
 
 export default async function Home() {
-  //const { DemoModal } = ;
-
   return (
     <>
       <div className="mt-20 px-5">
@@ -122,8 +120,8 @@ export default async function Home() {
           </div>
         </div>
 
-        <div className="mt-10 flex justify-center text-neutral-600">
-          <ul className="max-w-xl list-disc px-10 py-2 text-left sm:w-4/5">
+        <div className="mt-8 flex justify-center text-neutral-600">
+          <ul className="max-w-xl list-disc px-4 py-2 text-left sm:w-4/5">
             <li className="py-2">Runs on macOS 10.15 and later</li>
             <li className="py-2">
               Free to use and includes a 14 day Dropzone 4 Pro trial
@@ -141,19 +139,24 @@ export default async function Home() {
             </li>
             <li className="py-2">
               Up to 30% discount if upgrading from Dropzone 3. Redeem your
-              discount <Link className="text-blue-400 underline" href="/upgrade">here</Link>
+              discount{" "}
+              <Link className="text-blue-400 underline" href="/upgrade">
+                here
+              </Link>
             </li>
           </ul>
         </div>
 
         <div className="mb-3 mt-10 text-center text-sm text-gray-500">
-          <p>Or grab Dropzone 4 on Setapp or the Mac App Store</p>
+          <Balancer>
+            <p>Or grab Dropzone 4 on Setapp or the Mac App Store</p>
+          </Balancer>
         </div>
 
         <div className="flex w-full flex-row flex-wrap justify-center gap-y-5 text-center">
           <Link href="https://go.setapp.com/stp88?refAppID=155&stc=Aptonic%20Website&utm_medium=available_on_setapp_button&utm_source=155&utm_campaign=https://aptonic.com">
             <Image
-              className="mr-2"
+              className="sm:mr-2 md:mr-2"
               src="/download-setapp.png"
               alt="Download on Setapp"
               width="220"
@@ -169,45 +172,6 @@ export default async function Home() {
               height="56"
             />
           </Link>
-        </div>
-
-        <div className="px-5">
-          <hr className="my-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
-        </div>
-
-        <div className="mx-auto max-w-screen-xl text-sm">
-          <div className="-mx-2 flex flex-wrap">
-            <div className="flex w-full justify-center py-5 text-center md:w-1/3 md:px-5">
-              <div className="block min-h-full max-w-sm rounded-lg border border-gray-200 bg-white p-6  hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <p className="font-roboto text-gray-700">
-                  &ldquo;Now that the best parts of Dropzone 4 are free,
-                  there&apos;s simply no reason not to install this must-have
-                  menubar utility.&rdquo;
-                </p>
-              </div>
-            </div>
-            <div className="flex w-full justify-center py-5 text-center md:w-1/3 md:px-5">
-              <div className="block min-h-full max-w-sm rounded-lg border border-gray-200 bg-white p-6 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <p className="font-roboto text-gray-700">
-                  &ldquo;Dropzone catapults drag and drop into the twenty-first
-                  century with one-stop-shop access to files and applications,
-                  timesaving actions, and effortless menu bar access. Install
-                  it, and you&apos;ll forget all about your Mac&apos;s Dock and
-                  Launchpad.&rdquo;
-                </p>
-              </div>
-            </div>
-            <div className="flex w-full justify-center py-5 text-center md:w-1/3 md:px-5">
-              <div className="block min-h-full max-w-sm rounded-lg border border-gray-200 bg-white p-6 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <p className="font-roboto text-gray-700">
-                  &ldquo;Dropzone provides fantastic shortcuts for moving,
-                  copying, uploading files and performing various tasks.
-                  Everything is handled via drag-and-drop, saving you time with
-                  common, tedious tasks.&rdquo;
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
 
         <div className="px-5">
