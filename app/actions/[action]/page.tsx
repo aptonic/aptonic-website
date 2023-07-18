@@ -26,7 +26,7 @@ export default function Install({ params }: { params: { action: string } }) {
         </p>
 
         <p className="pt-5 text-sm">If nothing happens, please ensure Dropzone 4 is installed and running.</p>
-        <p className="text-sm pt-1">You can download Dropzone 4 <a className="underline" href="https://updates.aptonic.com/latest.php">here</a></p>
+        <p className="text-sm pt-1">You can download Dropzone 4 <a className="underline" href="https://updates.aptonic.com/dropzone4-latest">here</a></p>
 
         <p className="pt-5 text-sm">You can download the action bundle manually <a className="underline" href={`https://github.com/aptonic/dropzone4-actions-zipped/raw/master/${params.action}.dzbundle`}>here</a></p>
 
