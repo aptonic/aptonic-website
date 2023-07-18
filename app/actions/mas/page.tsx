@@ -11,19 +11,19 @@ interface Item {
   description: string;
 }
 
-export default function ActionsPage() {
+export default function ActionsMasPage() {
   const [data, setData] = useState<Item[]>([]);
 
   useEffect(() => {
-    fetch("https://actions.aptonic.com/actions/actions.json")
+    fetch("https://actions.aptonic.com/actions/mas_actions.json")
       .then((response) => response.json())
       .then((data) => setData(data));
-    window.scrollTo(0, 0);
+      window.scrollTo(0, 0);
   }, []);
 
   return (
     <>
-      <div className="mx-10 mt-28 flex flex-col md:w-2/3">
+      <div className="mt-28 mx-10 flex flex-col md:w-2/3">
         <div className="flex flex-row items-start md:items-center">
           <Image
             src="/devicon.png"
@@ -33,7 +33,7 @@ export default function ActionsPage() {
             height={90}
           />
           <div>
-            <h2 className="text-2xl">Install Dropzone 4 Pro Actions</h2>
+            <h2 className="text-2xl">Install Dropzone 4 Pro Cloud Actions</h2>
             <p className="text-base text-gray-500">
               Below are add-ons for Dropzone 4 Pro. Click the Install button to
               add them to your grid.
@@ -46,7 +46,7 @@ export default function ActionsPage() {
         </div>
 
         {data.map((item, index) => (
-          <div key={index}>
+          <div key={index} >
             <div className="mb-5 flex flex-row items-center">
               <img src={item.icon} alt={item.name} className="mr-8 w-[75px]" />
               <div>
@@ -54,12 +54,9 @@ export default function ActionsPage() {
                 <p className="text-sm text-gray-700">
                   <ActionDescription item={item} />
                 </p>
-                <a
-                  href={`/actions/${item.name}`}
-                  className="min-w-40 min-h-16 relative float-left mt-2 rounded border-b-2 border-purple-800 bg-purple-600 px-1.5 py-0 pb-0 pr-2 pt-1 font-roboto text-sm leading-6 text-white"
-                >
+                <a href={`/actions/${item.name}`} className="min-w-40 min-h-16 relative float-left font-roboto mt-2 rounded border-b-2 border-purple-800 bg-purple-600 px-1.5 py-0 pb-0 pr-2 pt-1 text-sm leading-6 text-white">
                   <svg
-                    className="mr-1 inline-block pb-1"
+                    className="pb-1 mr-1 inline-block"
                     width="20px"
                     height="20px"
                     viewBox="0 0 24 24"

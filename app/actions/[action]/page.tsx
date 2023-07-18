@@ -9,16 +9,16 @@ export default function Install({ params }: { params: { action: string } }) {
   }, []);
 
   return (
-    <div className="mt-28 mb-5 flex flex-row items-center text-gray-700">
+    <div className="mt-16 md:mt-20 mb-5 md:flex md:flex-row p-10 items-center text-gray-700">
       <Image
         alt="Dropzone 4 Icon"
         src="/app_icon.png"
         width={256}
         height={256}
-        className="mt-20 mr-5 inline-block"
+        className="w-36 md:w-72 md:mt-20 mr-5 inline-block"
       />
       <div>
-        <h2 className="text-xl text-violet-900 mt-20 mb-5">
+        <h2 className="text-xl text-violet-900 mt-10 md:mt-20 mb-5">
           Installing {decodeURIComponent(params.action)} Action...
         </h2>
         <p className="text-base font-medium">
