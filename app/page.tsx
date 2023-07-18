@@ -94,7 +94,7 @@ export default async function Home() {
           <hr className="my-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
         </div>
 
-        <div className="flex w-full flex-row flex-wrap items-center justify-center gap-y-5">
+        <div className="flex w-full flex-row flex-wrap items-top justify-center gap-y-5">
           <div className="grid text-center">
             <a href="https://updates.aptonic.com/dropzone4-latest">
               <button

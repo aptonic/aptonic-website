@@ -20,8 +20,7 @@ export default function BuyLink({
 
         window.Paddle.Checkout.open(checkoutOptions);
       }}
-      href="#!"
-      className="text-blue-400 underline"
+      className="text-blue-400 underline cursor-pointer"
     >
       {children}
     </a>

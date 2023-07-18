@@ -30,60 +30,60 @@ export default function Page() {
             <div className="mt-5">
               <ul className="list-disc list-inside text-blue-500 leading-loose marker:text-gray-500">
                 <li>
-                  <a href="#!" onClick={() => gotoTime(9)}>
+                  <a className="cursor-pointer" onClick={() => gotoTime(9)}>
                     Using the Dropzone grid
                   </a>
                 </li>
                 <li>
-                  <a href="#!" onClick={() => gotoTime(70)}>
+                  <a className="cursor-pointer" onClick={() => gotoTime(70)}>
                     Dragging files onto an action
                   </a>
                 </li>
 
                 <li>
-                  <a href="#!" onClick={() => gotoTime(91)}>
+                  <a className="cursor-pointer" onClick={() => gotoTime(91)}>
                     Running an action using the keyboard
                   </a>
                 </li>
 
                 <li>
-                  <a href="#!" onClick={() => gotoTime(116)}>
+                  <a className="cursor-pointer" onClick={() => gotoTime(116)}>
                     Changing the key assigned to an action
                   </a>
                 </li>
 
                 <li>
-                  <a href="#!" onClick={() => gotoTime(138)}>
+                  <a className="cursor-pointer" onClick={() => gotoTime(138)}>
                     Uploading images to Imgur
                   </a>
                 </li>
 
                 <li>
-                  <a href="#!" onClick={() => gotoTime(200)}>
+                  <a className="cursor-pointer" onClick={() => gotoTime(200)}>
                     Accessing Recently Shared URLs
                   </a>
                 </li>
 
                 <li>
-                  <a href="#!" onClick={() => gotoTime(222)}>
+                  <a className="cursor-pointer" onClick={() => gotoTime(222)}>
                     Using Drop Bar
                   </a>
                 </li>
 
                 <li>
-                  <a href="#!" onClick={() => gotoTime(368)}>
+                  <a className="cursor-pointer" onClick={() => gotoTime(368)}>
                     Using the Say Text action
                   </a>
                 </li>
 
                 <li>
-                  <a href="#!" onClick={() => gotoTime(393)}>
+                  <a className="cursor-pointer" onClick={() => gotoTime(393)}>
                     Sending files to Dropzone using a keyboard shortcut
                   </a>
                 </li>
 
                 <li>
-                  <a href="#!" onClick={() => gotoTime(423)}>
+                  <a className="cursor-pointer" onClick={() => gotoTime(423)}>
                     Support options
                   </a>
                 </li>
