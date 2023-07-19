@@ -48,7 +48,7 @@ export default function Page() {
 
   return (
     <>
-      <div className="z-10 mt-28 sm:w-full md:w-10/12 lg:w-1/2 px-5 text-gray-500">
+      <div className="z-10 mt-28 px-5 text-gray-500 sm:w-full md:w-10/12 lg:w-1/2">
         <h2 className="mb-5 text-xl">Dropzone 4 Pro Upgrade Pricing</h2>
 
         <Image
@@ -88,7 +88,7 @@ export default function Page() {
                 Dropzone 3 Serial Number:
                 <br />
                 <input
-                  className="w-80 mr-3 mb-3"
+                  className="mb-3 mr-3 w-80"
                   type="text"
                   name="serial"
                   value={serial}
@@ -165,12 +165,15 @@ export default function Page() {
         <br />
         {(!couponData || (couponData && couponData.status !== "success")) && (
           <p>
-            Need help finding your Dropzone 3 serial? You can put your email in
-            on this page and we will email it to you.
+            Need help finding your Dropzone 3 serial? You can put your email in{" "}
+            <a href="/lost_serial/3" className="text-blue-400 underline">
+              on this page
+            </a>{" "}
+            and we will email it to you.
             <br />
             <br />
             If you purchased Dropzone 3 on the Mac App Store and do not have a
-            serial number email support@aptonic.com and we will assist you.
+            serial number email <a className="text-blue-400 underline" href="mailto:support@aptonic.com">support@aptonic.com</a> and we will assist you.
           </p>
         )}
       </div>
