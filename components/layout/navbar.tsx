@@ -42,6 +42,7 @@ export default function NavBar({ isBlog }) {
                 pathname?.startsWith("/actions") ||
                 pathname?.startsWith("/guide") ||
                 pathname?.startsWith("/upgrade") ||
+                pathname?.startsWith("/lost_serial") ||
                 pathname?.startsWith("/intro")
                   ? "font-bold"
                   : "font-normal"
