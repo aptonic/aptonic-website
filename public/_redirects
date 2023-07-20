@@ -2,3 +2,4 @@
 /dropzone/latest            https://updates.aptonic.com/dropzone4-latest
 /upgrade.php                /upgrade
 /payments/LostSerial.php    /lost_serial
+/guide/registration.php     /guide
