@@ -17,7 +17,7 @@ export default function Page() {
           <div
             className="w-full animate-fade-up opacity-0"
             style={{
-              animationDelay: "0.55s",
+              animationDelay: "0.25s",
               animationFillMode: "forwards",
             }}
           >
