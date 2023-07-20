@@ -1,6 +1,6 @@
-/payments/GetLicense.php                                            https://licensing.aptonic.com/get_license                                   200
-/payments/paddle/get_subscription.php                               https://licensing.aptonic.com/get_subscription                              200
-/payments/paddle/send_subscription_reactivation_code.php            https://licensing.aptonic.com/send_subscription_reactivation_code           200
+/payments/GetLicense.php                                            https://licensing.aptonic.com/get_license                           200
+/payments/paddle/get_subscription.php                               https://licensing.aptonic.com/get_subscription                      200
+/payments/paddle/send_subscription_reactivation_code.php            https://licensing.aptonic.com/send_subscription_relink_code         200
 /dropzone/latest                                                    https://updates.aptonic.com/dropzone4-latest
 /sparkle4/updates.xml                                               https://updates.aptonic.com/dz4/updates.xml
 /sparkle/updates.xml                                                https://updates.aptonic.com/dz3/updates.xml
