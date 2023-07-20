@@ -6,6 +6,7 @@ import DzReviewCard from "@/components/home/dzreview-card";
 import BuyButton from "@/components/home/buy-button";
 import BuyLink from "@/components/home/buy-link";
 import ProFeatures from "@/components/home/pro-features";
+import AppVersion from "@/components/home/app-version";
 
 export default async function Home() {
   return (
@@ -111,7 +112,7 @@ export default async function Home() {
                 Download Dropzone 4
               </button>
             </a>
-            <span className="pt-2 text-sm text-gray-500">Version 4.6.1</span>
+            <AppVersion />
           </div>
 
           <div className="grid text-center">
