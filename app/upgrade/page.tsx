@@ -2,6 +2,7 @@
 
 import BuyLink from "@/components/home/buy-link";
 import Image from "next/image";
+import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 
 type Coupons = {
@@ -16,11 +17,19 @@ type CouponData = {
 };
 
 export default function Page() {
+  const searchParams = useSearchParams();
   const [couponData, setCouponData] = useState<CouponData | null>(null);
   const [serial, setSerial] = useState("");
 
   useEffect(() => {
     window.scroll(0, 0);
+
+    if (searchParams) {
+      const serialParam = searchParams.get("serial");
+      if (serialParam) {
+        setSerial(serialParam as string);
+      }
+    }
   }, []);
 
   // Handle form submission
@@ -173,7 +182,14 @@ export default function Page() {
             <br />
             <br />
             If you purchased Dropzone 3 on the Mac App Store and do not have a
-            serial number email <a className="text-blue-400 underline" href="mailto:support@aptonic.com">support@aptonic.com</a> and we will assist you.
+            serial number email{" "}
+            <a
+              className="text-blue-400 underline"
+              href="mailto:support@aptonic.com"
+            >
+              support@aptonic.com
+            </a>{" "}
+            and we will assist you.
           </p>
         )}
       </div>
