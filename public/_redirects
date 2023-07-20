@@ -1,2 +1,3 @@
 /payments/GetLicense.php    https://licensing.aptonic.com/get_license   200
 /upgrade.php                /upgrade
+/payments/LostSerial.php    /lost_serial
