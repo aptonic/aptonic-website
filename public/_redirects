@@ -1,7 +1,9 @@
-/payments/GetLicense.php    https://licensing.aptonic.com/get_license   200
-/dropzone/latest            https://updates.aptonic.com/dropzone4-latest
-/sparkle4/updates.xml       https://updates.aptonic.com/dz4/updates.xml
-/sparkle/updates.xml        https://updates.aptonic.com/dz3/updates.xml
-/upgrade.php                /upgrade
-/payments/LostSerial.php    /lost_serial
-/guide/registration.php     /guide
+/payments/GetLicense.php                                            https://licensing.aptonic.com/get_license                                   200
+/payments/paddle/get_subscription.php                               https://licensing.aptonic.com/get_subscription                              200
+/payments/paddle/send_subscription_reactivation_code.php            https://licensing.aptonic.com/send_subscription_reactivation_code           200
+/dropzone/latest                                                    https://updates.aptonic.com/dropzone4-latest
+/sparkle4/updates.xml                                               https://updates.aptonic.com/dz4/updates.xml
+/sparkle/updates.xml                                                https://updates.aptonic.com/dz3/updates.xml
+/upgrade.php                                                        /upgrade
+/payments/LostSerial.php                                            /lost_serial
+/guide/registration.php                                             /guide
