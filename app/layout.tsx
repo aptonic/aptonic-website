@@ -5,9 +5,6 @@ import Footer from "@/components/layout/footer";
 import Navbar from "@/components/layout/navbar";
 import Paddle from "@/components/shared/paddle";
 
-export const dynamic = 'force-dynamic'
-export const revalidate = 0
-
 export const metadata = {
   title: "Aptonic - Dropzone 4",
   description:
