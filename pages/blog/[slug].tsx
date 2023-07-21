@@ -4,11 +4,7 @@ import Head from 'next/head'
 import { GetStaticPaths, GetStaticProps } from 'next'
 import Container from '../../components/blog/container'
 import PostBody from '../../components/blog/post-body'
-import MoreStories from '../../components//blog/more-stories'
-import Header from '../../components/blog/header'
 import PostHeader from '../../components/blog/post-header'
-import SectionSeparator from '../../components/blog/section-separator'
-import Layout from '../../components/blog/layout'
 import PostTitle from '../../components/blog/post-title'
 import Tags from '../../components/blog/tags'
 import { getAllPostsWithSlug, getPostAndMorePosts } from '../../lib/api'
@@ -16,7 +12,6 @@ import { CMS_NAME } from '../../lib/constants'
 
 export default function Post({ post, posts, preview }) {
   const router = useRouter()
-  const morePosts = posts?.edges
 
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />
