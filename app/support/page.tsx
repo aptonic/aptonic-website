@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import SupportItem from "@/components/support/support-item";
 
@@ -8,8 +10,6 @@ import keyIcon from "/public/support/key.svg";
 import mailIcon from "/public/support/mail.svg";
 import pressIcon from "/public/support/press.svg";
 import forumsIcon from "/public/support/forums.svg";
-
-export const dynamic = 'force-static'
 
 export default function Page() {
   return (
