@@ -10,3 +10,5 @@
 /upgrade.php                                                        /upgrade
 /payments/LostSerial.php                                            /lost_serial
 /guide/registration.php                                             /guide
+/dropzone/destinations/help/amazons3.php                            /help/actions/amazons3
+/dropzone/destinations/help/tinyurl.php                             /help/actions/tinyurl
