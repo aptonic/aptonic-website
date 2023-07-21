@@ -38,7 +38,7 @@ export default function Page() {
               you to use many different cloud services that Amazon provides
               including S3 storage. If you already have an AWS account setup and
               a bucket you would like to upload to, you can skip down to{" "}
-              <a href="#dropzone-setup" target title>
+              <a href="#dropzone-setup" className="underline">
                 setting it up in Dropzone.
               </a>
             </p>
