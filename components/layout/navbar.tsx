@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import Aptonic from "../shared/icons/aptonic";
 import { usePathname } from "next/navigation";
 
@@ -26,14 +27,14 @@ export default function NavBar({ isBlog }) {
             >
               Home
             </a>
-            <a
+            <Link
               href="/blog"
               className={`w-[32px] ${
                 pathname?.startsWith("/blog") ? "font-bold" : "font-normal"
               }`}
             >
               Blog
-            </a>
+            </Link>
             <a
               href="/support"
               className={`w-[58px] ${
