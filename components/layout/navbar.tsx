@@ -20,7 +20,6 @@ export default function NavBar({ isBlog }) {
           </Link>
           <div className="mr-10 flex justify-end gap-10 md:mr-20 md:gap-20">
             <Link
-              prefetch={false}
               href="/"
               className={`invisible w-[46px] sm:visible ${
                 usePathname() == "/" ? "font-bold " : "font-normal"
@@ -37,7 +36,6 @@ export default function NavBar({ isBlog }) {
               Blog
             </Link>
             <Link
-              prefetch={false}
               href="/support"
               className={`w-[58px] ${
                 pathname?.startsWith("/support") ||
