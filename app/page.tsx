@@ -84,17 +84,17 @@ export default async function Home() {
       </div>
 
       <div
-        className="w-9/12 animate-fade-up opacity-0"
+        className="animate-fade-up opacity-0"
         style={{
           animationDelay: "0.55s",
           animationFillMode: "forwards",
         }}
       >
         <div className="px-5">
-          <hr className="my-10 -m-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
+          <hr className="my-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
         </div>
 
-        <div className="items-top flex w-full flex-row flex-wrap justify-center gap-y-5">
+        <div className="w-9/12 mx-auto items-top flex flex-row flex-wrap justify-center gap-y-5">
           <div className="grid text-center">
             <a href="https://updates.aptonic.com/dropzone4-latest">
               <button
@@ -120,7 +120,7 @@ export default async function Home() {
           </div>
         </div>
 
-        <div className="mt-8 flex justify-center text-neutral-600">
+        <div className="mt-8 w-9/12 mx-auto flex justify-center text-neutral-600">
           <ul className="max-w-xl list-disc px-4 py-2 text-left sm:w-4/5">
             <li className="py-2">Runs on macOS 10.15 and later</li>
             <li className="py-2">
@@ -152,7 +152,7 @@ export default async function Home() {
           </Balancer>
         </div>
 
-        <div className="flex w-full flex-row flex-wrap justify-center gap-y-5 text-center">
+        <div className="w-9/12 mx-auto flex flex-row flex-wrap justify-center gap-y-5 text-center">
           <a href="https://go.setapp.com/stp88?refAppID=155&stc=Aptonic%20Website&utm_medium=available_on_setapp_button&utm_source=155&utm_campaign=https://aptonic.com">
             <Image
               className="sm:mr-2 md:mr-2"
@@ -174,16 +174,16 @@ export default async function Home() {
         </div>
 
         <div className="px-5">
-          <hr className="my-10 -m-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
+          <hr className="my-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
         </div>
 
-        <div className="mx-auto max-w-screen-xl text-center">
+        <div className="w-9/12 mx-auto max-w-screen-xl text-center">
           <h1 className="mb-10 font-roboto text-3xl">
             Dropzone makes it faster and easier to:
           </h1>
         </div>
 
-        <div className="mx-auto flex max-w-screen-xl flex-wrap whitespace-nowrap px-2 text-sm text-gray-500">
+        <div className="w-9/12 md:w-full mx-auto flex max-w-screen-xl flex-wrap whitespace-nowrap px-2 text-sm text-gray-500">
           <div className="w-full px-10 text-center md:w-1/3 md:py-5">
             <ul>
               <li className="flex items-center py-1">
@@ -345,7 +345,7 @@ export default async function Home() {
           </div>
         </div>
 
-        <div className="mb-3 -ml-5 -mr-5 mt-10 text-center text-lg text-gray-500">
+        <div className="mb-3 m-5 mt-10 text-center text-lg text-gray-500">
           <p>
             Boost your productivity and complete everyday tasks faster with
             Dropzone.
@@ -353,14 +353,14 @@ export default async function Home() {
         </div>
 
         <div className="px-5">
-          <hr className="my-10 -m-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
+          <hr className="my-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
         </div>
 
         <div className="mx-auto max-w-screen-xl text-center">
           <h1 className="mb-12 font-roboto text-3xl">How to use Dropzone</h1>
         </div>
 
-        <div className="-ml-5 -mr-5 mx-auto max-w-screen-xl text-center">
+        <div className="w-10/12 mx-auto max-w-screen-xl text-center">
           <h1 className="mb-3 font-roboto">
             1. Drag a file to the top of your screen
           </h1>
@@ -400,10 +400,10 @@ export default async function Home() {
         </div>
 
         <div className="px-5">
-          <hr className="my-10 -m-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
+          <hr className="my-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
         </div>
 
-        <div className="mx-auto -ml-5 -mr-5 max-w-screen-xl text-center">
+        <div className="mx-auto w-10/12 max-w-screen-xl text-center">
           <h1 className="mb-10 font-roboto text-3xl">Keyboard shortcuts</h1>
 
           <h1 className="mb-3 font-roboto">1. Press F3</h1>
@@ -434,11 +434,11 @@ export default async function Home() {
         </div>
 
         <div className="px-5">
-          <hr className="my-10 -m-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
+          <hr className="my-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
         </div>
 
-        <div className="mx-auto max-w-screen-xl text-center">
-          <h1 className="mb-12 font-roboto text-3xl">
+        <div className="mx-auto w-9/12 max-w-screen-xl text-center">
+          <h1 className="mb-8 font-roboto text-3xl">
             What people are saying about Dropzone
           </h1>
         </div>
@@ -503,14 +503,14 @@ export default async function Home() {
         </DzReviewCard>
 
         <div className="px-5">
-          <hr className="my-10 -m-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
+          <hr className="my-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
         </div>
 
-        <div className="mx-auto max-w-screen-xl text-center">
+        <div className="w-9/12 mx-auto max-w-screen-xl text-center">
           <h1 className="mb-10 font-roboto text-3xl">There&apos;s more...</h1>
         </div>
 
-        <div className="mx-auto max-w-screen-xl text-center">
+        <div className="mx-auto w-9/12  max-w-screen-xl text-center">
           <Image
             src="/devicon.png"
             alt="Dropzone Action Development Icon"
@@ -519,7 +519,7 @@ export default async function Home() {
             height={133}
           />
 
-          <div className="mb-3 -ml-5 -mr-5 mt-10 text-center text-base text-gray-500">
+          <div className="mx-auto mb-3 mt-10 text-center text-base text-gray-500">
             <p>
               Easily extend Dropzone by installing more actions in just a few
               clicks.
