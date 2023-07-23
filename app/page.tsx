@@ -1,6 +1,5 @@
 import Image from "next/image";
 import appIcon from "/public/app_icon.png";
-import Link from "next/link";
 import Balancer from "react-wrap-balancer";
 import DzReviewCard from "@/components/home/dzreview-card";
 import BuyButton from "@/components/home/buy-button";
@@ -75,12 +74,12 @@ export default async function Home() {
         }}
       >
         <Balancer>
-          <Link
+          <a
             className="text-blue-400 underline"
             href="/blog/dropzone-4-versus-dropzone-3-should-i-upgrade/"
           >
             Dropzone 4 versus Dropzone 3 - Read Blog Post
-          </Link>
+          </a>
         </Balancer>
       </div>
 
@@ -140,9 +139,9 @@ export default async function Home() {
             </li>
             <li className="py-2">
               Up to 30% discount if upgrading from Dropzone 3.{' '}<br />
-              <Link className="text-blue-400 underline" href="/upgrade">
+              <a className="text-blue-400 underline" href="/upgrade">
                 Redeem your discount here
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
@@ -154,7 +153,7 @@ export default async function Home() {
         </div>
 
         <div className="flex w-full flex-row flex-wrap justify-center gap-y-5 text-center">
-          <Link href="https://go.setapp.com/stp88?refAppID=155&stc=Aptonic%20Website&utm_medium=available_on_setapp_button&utm_source=155&utm_campaign=https://aptonic.com">
+          <a href="https://go.setapp.com/stp88?refAppID=155&stc=Aptonic%20Website&utm_medium=available_on_setapp_button&utm_source=155&utm_campaign=https://aptonic.com">
             <Image
               className="sm:mr-2 md:mr-2"
               src="/download-setapp.png"
@@ -162,16 +161,16 @@ export default async function Home() {
               width="220"
               height="56"
             />
-          </Link>
+          </a>
 
-          <Link href="https://apps.apple.com/in/app/dropzone-4/id1485052491?mt=12">
+          <a href="https://apps.apple.com/in/app/dropzone-4/id1485052491?mt=12">
             <Image
               src="/download-mas.png"
               alt="Download on the Mac App Store"
               width="220"
               height="56"
             />
-          </Link>
+          </a>
         </div>
 
         <div className="px-5">
@@ -540,7 +539,7 @@ export default async function Home() {
           </div>
 
           <div className="mx-auto mt-12 flex max-w-md justify-center text-center text-base font-bold text-blue-500">
-            <Link href="/actions">
+            <a href="/actions">
               <div className="mx-auto mr-10 flex items-center">
                 <svg
                   className="mr-2 flex w-7 fill-blue-500"
@@ -551,9 +550,9 @@ export default async function Home() {
                 </svg>
                 <span className="flex">Install Actions</span>
               </div>
-            </Link>
+            </a>
 
-            <Link href="https://github.com/aptonic/dropzone4-actions/blob/master/README.md#introducing-the-dropzone-4-api">
+            <a href="https://github.com/aptonic/dropzone4-actions/blob/master/README.md#introducing-the-dropzone-4-api">
               <div className="mx-auto flex items-center">
                 <svg
                   className="mr-2 flex w-5 fill-blue-500"
@@ -564,7 +563,7 @@ export default async function Home() {
                 </svg>
                 <span className="flex">Developer Documentation</span>
               </div>
-            </Link>
+            </a>
           </div>
         </div>
 
