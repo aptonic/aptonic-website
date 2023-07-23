@@ -67,7 +67,7 @@ export default async function Home() {
       </div>
 
       <div
-        className="mt-10  flex w-full animate-fade-up justify-center px-8 text-center opacity-0"
+        className="mt-10 flex w-full animate-fade-up justify-center px-8 text-center opacity-0"
         style={{
           animationDelay: "0.55s",
           animationFillMode: "forwards",
@@ -91,7 +91,7 @@ export default async function Home() {
         }}
       >
         <div className="px-5">
-          <hr className="my-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
+          <hr className="my-10 -m-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
         </div>
 
         <div className="items-top flex w-full flex-row flex-wrap justify-center gap-y-5">
@@ -174,7 +174,7 @@ export default async function Home() {
         </div>
 
         <div className="px-5">
-          <hr className="my-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
+          <hr className="my-10 -m-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
         </div>
 
         <div className="mx-auto max-w-screen-xl text-center">
@@ -345,7 +345,7 @@ export default async function Home() {
           </div>
         </div>
 
-        <div className="mb-3 mt-10 text-center text-lg text-gray-500">
+        <div className="mb-3 -ml-5 -mr-5 mt-10 text-center text-lg text-gray-500">
           <p>
             Boost your productivity and complete everyday tasks faster with
             Dropzone.
@@ -353,14 +353,14 @@ export default async function Home() {
         </div>
 
         <div className="px-5">
-          <hr className="my-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
+          <hr className="my-10 -m-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
         </div>
 
         <div className="mx-auto max-w-screen-xl text-center">
           <h1 className="mb-12 font-roboto text-3xl">How to use Dropzone</h1>
         </div>
 
-        <div className="mx-auto max-w-screen-xl text-center">
+        <div className="-ml-5 -mr-5 mx-auto max-w-screen-xl text-center">
           <h1 className="mb-3 font-roboto">
             1. Drag a file to the top of your screen
           </h1>
@@ -400,10 +400,10 @@ export default async function Home() {
         </div>
 
         <div className="px-5">
-          <hr className="my-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
+          <hr className="my-10 -m-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
         </div>
 
-        <div className="mx-auto max-w-screen-xl text-center">
+        <div className="mx-auto -ml-5 -mr-5 max-w-screen-xl text-center">
           <h1 className="mb-10 font-roboto text-3xl">Keyboard shortcuts</h1>
 
           <h1 className="mb-3 font-roboto">1. Press F3</h1>
@@ -434,7 +434,7 @@ export default async function Home() {
         </div>
 
         <div className="px-5">
-          <hr className="my-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
+          <hr className="my-10 -m-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
         </div>
 
         <div className="mx-auto max-w-screen-xl text-center">
@@ -503,7 +503,7 @@ export default async function Home() {
         </DzReviewCard>
 
         <div className="px-5">
-          <hr className="my-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
+          <hr className="my-10 -m-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
         </div>
 
         <div className="mx-auto max-w-screen-xl text-center">
@@ -519,7 +519,7 @@ export default async function Home() {
             height={133}
           />
 
-          <div className="mb-3 mt-10 text-center text-base text-gray-500">
+          <div className="mb-3 -ml-5 -mr-5 mt-10 text-center text-base text-gray-500">
             <p>
               Easily extend Dropzone by installing more actions in just a few
               clicks.

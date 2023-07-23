@@ -8,9 +8,9 @@ export default function DzReviewCard({
   src: string;
 }) {
   return (
-    <div className="flex justify-center">
-      <div className="max-w-3xl">
-        <div className="m-4 block rounded-lg bg-white p-6 shadow-lg dark:bg-neutral-800 dark:shadow-black/20">
+    <div className="flex justify-center -ml-5 -mr-5">
+      <div className="max-w-2xl">
+        <div className="m-4 ml-0 mr-0 block rounded-lg bg-white p-6 shadow-lg dark:bg-neutral-800 dark:shadow-black/20">
           <div className="md:flex md:flex-row">
             <div className="md:ml-6">
               <p className="mb-6 font-light text-neutral-500 dark:text-neutral-300">
