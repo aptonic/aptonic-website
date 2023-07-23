@@ -9,13 +9,24 @@ import mailIcon from "/public/support/mail.svg";
 import pressIcon from "/public/support/press.svg";
 import forumsIcon from "/public/support/forums.svg";
 
+import { headers } from 'next/headers';
+
 export default function Page() {
+  const headersList = headers();
+  const userAgent = headersList.get("user-agent");
+
+  let isMobileView = userAgent!.match(
+    /Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i,
+  );
+
   return (
     <>
       <div className="z-10 ml-5 mr-10 mt-32 px-5 md:w-10/12 lg:w-8/12">
         <div className="flex flex-row">
           <div
-            className="w-full animate-fade-up opacity-0"
+            className={`w-full ${
+              isMobileView ? "" : "animate-fade-up opacity-0"
+            }`}
             style={{
               animationDelay: "0.25s",
               animationFillMode: "forwards",
