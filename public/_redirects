@@ -15,4 +15,4 @@
 /dropzone/help/tinyurl.php                                          /help/actions/tinyurl
 /actions/index.php                                                  /actions
 /support.php                                                        /support
-/actions/install.php?bundle_name=:bundlename                        /actions/:bundlename                                                301
+/actions/install.php                                                bundle_name=:bundle_name                                            /actions/:bundle_name
