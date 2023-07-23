@@ -21,7 +21,7 @@ export default function Page() {
 
   return (
     <>
-      <div className="z-10 ml-5 mr-10 mt-32 px-5 md:w-10/12 lg:w-8/12">
+      <div className="z-10 ml-5 mr-10 mt-32 px-5 lg:max-w-4xl">
         <div className="flex flex-row">
           <div
             className={`w-full ${

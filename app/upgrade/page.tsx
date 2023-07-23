@@ -57,7 +57,7 @@ export default function Page() {
 
   return (
     <>
-      <div className="z-10 mt-28 px-5 text-gray-500 sm:w-full md:w-10/12 lg:w-1/2">
+      <div className="z-10 mt-28 px-5 text-gray-500 sm:w-full lg:max-w-4xl">
         <h2 className="mb-5 text-xl">Dropzone 4 Pro Upgrade Pricing</h2>
 
         <Image

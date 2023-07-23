@@ -40,7 +40,7 @@ export default function Page() {
 
   return (
     <>
-      <div className="z-10 mt-28 sm:w-full md:w-10/12 lg:w-1/2 px-5">
+      <div className="z-10 mt-28 sm:w-full lg:max-w-4xl px-5">
         <h2 className="mb-5 text-xl">
           How to Register Dropzone 4 Pro Lifetime
         </h2>
@@ -49,6 +49,7 @@ export default function Page() {
           alt="Registration Step 1"
           width={694}
           height={462}
+          quality={100}
         />
         <br />
         <Image
@@ -56,6 +57,7 @@ export default function Page() {
           alt="Registration Step 2"
           width={694}
           height={462}
+          quality={100}
         />
         <br />
         <Image
@@ -63,6 +65,7 @@ export default function Page() {
           alt="Registration Step 3"
           width={694}
           height={462}
+          quality={100}
         />
 
         <br />
@@ -71,6 +74,7 @@ export default function Page() {
           alt="Registration Step 4"
           width={694}
           height={462}
+          quality={100}
         />
 
         <h2 className="mb-5 mt-10 text-xl">
