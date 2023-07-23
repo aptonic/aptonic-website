@@ -7,6 +7,7 @@
 /sparkle/releasenotes/*                                             https://updates.aptonic.com/dz3/releasenotes/:splat
 /sparkle4/releasenotes/*                                            https://updates.aptonic.com/dz4/releasenotes/:splat
 /forum/*                                                            https://forums.aptonic.com/:splat
+/api                                                                https://github.com/aptonic/dropzone3-actions/blob/master/README.md
 /upgrade.php                                                        /upgrade
 /payments/LostSerial.php                                            /lost_serial
 /guide/registration.php                                             /guide
