@@ -23,7 +23,7 @@ export default function ActionsMasPage() {
 
   return (
     <>
-      <div className="mt-28 mx-10 flex flex-col md:w-2/3">
+      <div className="mt-28 mx-10 flex flex-col lg:max-w-4xl">
         <div className="flex flex-row items-start md:items-center">
           <Image
             src="/devicon.png"

@@ -23,7 +23,7 @@ export default function ActionsUntestedPage() {
 
   return (
     <>
-      <div className="mx-10 mt-28 flex flex-col md:w-2/3">
+      <div className="mx-10 mt-28 flex flex-col lg:max-w-4xl">
         <div className="flex flex-row items-start md:items-center">
           <div>
             <h2 className="text-2xl">Untested Actions</h2>
