@@ -76,7 +76,7 @@ export default async function Home() {
         <Balancer>
           <a
             className="text-blue-400 underline"
-            href="/blog/dropzone-4-versus-dropzone-3-should-i-upgrade/"
+            href="https://aptonic.com/blog/dropzone-4-versus-dropzone-3-should-i-upgrade/"
           >
             Dropzone 4 versus Dropzone 3 - Read Blog Post
           </a>
