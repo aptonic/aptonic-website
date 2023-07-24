@@ -16,3 +16,4 @@
 /actions/index.php                                                  /actions
 /support.php                                                        /support
 /actions/install.php                                                bundle_name=:bundle_name                                            /actions/:bundle_name
+/actions/dropzone3                                                  /actions
