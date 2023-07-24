@@ -8,6 +8,7 @@
 /sparkle4/releasenotes/*                                            https://updates.aptonic.com/dz4/releasenotes/:splat
 /forum/*                                                            https://forums.aptonic.com/:splat
 /api                                                                https://github.com/aptonic/dropzone3-actions/blob/master/README.md
+/downsrd/tuyapiphp/src/monitor18325.php                             https://downsrd.aptonic.com/monitor
 /upgrade.php                                                        /upgrade
 /payments/LostSerial.php                                            /lost_serial
 /guide/registration.php                                             /guide
