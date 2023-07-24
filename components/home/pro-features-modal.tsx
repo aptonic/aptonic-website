@@ -8,15 +8,15 @@ import {
 } from "react";
 import Image from "next/image";
 
-const DemoModal = ({
-  showDemoModal,
-  setShowDemoModal,
+const ProFeaturesModal = ({
+  showProFeaturesModal,
+  setShowProFeaturesModal,
 }: {
-  showDemoModal: boolean;
-  setShowDemoModal: Dispatch<SetStateAction<boolean>>;
+  showProFeaturesModal: boolean;
+  setShowProFeaturesModal: Dispatch<SetStateAction<boolean>>;
 }) => {
   return (
-    <Modal showModal={showDemoModal} setShowModal={setShowDemoModal}>
+    <Modal showModal={showProFeaturesModal} setShowModal={setShowProFeaturesModal}>
       <div className="rounded-2xl md:border bg-white md:border-gray-100 md:shadow-xl">
         <div className="flex flex-col items-center justify-center text-sm text-gray-500 space-y-3 md:m-10 bg-white text-center">
 
@@ -150,20 +150,20 @@ const DemoModal = ({
   );
 };
 
-export function useDemoModal() {
-  const [showDemoModal, setShowDemoModal] = useState(false);
+export function useProFeaturesModal() {
+  const [showProFeaturesModal, setShowProFeaturesModal] = useState(false);
 
-  const DemoModalCallback = useCallback(() => {
+  const ProFeaturesModalCallback = useCallback(() => {
     return (
-      <DemoModal
-        showDemoModal={showDemoModal}
-        setShowDemoModal={setShowDemoModal}
+      <ProFeaturesModal
+        showProFeaturesModal={showProFeaturesModal}
+        setShowProFeaturesModal={setShowProFeaturesModal}
       />
     );
-  }, [showDemoModal, setShowDemoModal]);
+  }, [showProFeaturesModal, setShowProFeaturesModal]);
 
   return useMemo(
-    () => ({ setShowDemoModal, DemoModal: DemoModalCallback }),
-    [setShowDemoModal, DemoModalCallback],
+    () => ({ setShowProFeaturesModal, ProFeaturesModal: ProFeaturesModalCallback }),
+    [setShowProFeaturesModal, ProFeaturesModalCallback],
   );
 }
