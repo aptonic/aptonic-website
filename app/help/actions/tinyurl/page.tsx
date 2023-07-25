@@ -19,9 +19,6 @@ export default function Page() {
               </div>
             </div>
           </div>
-          <div id="header-right">
-            <span className="align-image-bottom" />
-          </div>
         </div>
         <div id="clarify-article-content">
           <div className="clarify-article-description">

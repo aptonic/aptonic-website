@@ -11,6 +11,7 @@ body {
 }
 
 #wrapper {
+  margin-top: 40px;
 }
 
 #header-row {
@@ -22,16 +23,16 @@ body {
 
 #header-left {
   width: 65%;
-  height: 190px;
   float: left;
   color: #686868;
   margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 40px;
 }
 
 #header-left-content {
   width: 100%;
   display: table;
-  height: 140px;
 }
 
 #header-left h1 {
@@ -43,7 +44,6 @@ body {
 
 #header-right {
   width: 28%;
-  height: 190px;
   float: right;
   text-align: center;
 }

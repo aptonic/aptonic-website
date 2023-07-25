@@ -1,28 +1,21 @@
-import "../styles.css"
+import "../styles.css";
 import { Metadata } from "next";
 
-
 export const metadata: Metadata = {
-    title: 'Dropzone Amazon S3 Setup Guide',
-  }
+  title: "Dropzone Amazon S3 Setup Guide",
+};
 
 export default function Page() {
   return (
-
     <div className="w-10/12 md:w-10/12">
       <div id="wrapper">
         <div id="header-row">
           <div id="header-left">
             <div id="header-left-content">
-              <div className="align-bottom">
-                <h1 className="clarify-article-title">
-                  Dropzone Amazon S3 Setup Guide
-                </h1>
-              </div>
+              <h1 className="clarify-article-title">
+                Dropzone Amazon S3 Setup Guide
+              </h1>
             </div>
-          </div>
-          <div id="header-right">
-            <span className="align-image-bottom" />
           </div>
         </div>
         <div id="clarify-article-content">
