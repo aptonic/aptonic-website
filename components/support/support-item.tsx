@@ -1,5 +1,3 @@
-"use client";
-
 export default function SupportItem({ title, link, icon, children }) {
 
   return (
