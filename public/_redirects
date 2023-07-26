@@ -16,5 +16,6 @@
 /dropzone/help/tinyurl.php                                          /help/actions/tinyurl
 /actions/index.php                                                  /actions
 /support.php                                                        /support
+/uninstall.php                                                      /uninstall
 /actions/install.php                                                bundle_name=:bundle_name                                            /actions/:bundle_name
 /dropzone3/actions                                                  /actions
