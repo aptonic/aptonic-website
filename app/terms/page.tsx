@@ -1,3 +1,6 @@
+export const metadata = {
+  title: "Aptonic - Terms of Service",
+};
 
 export default function Page() {
   return (

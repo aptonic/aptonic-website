@@ -1,3 +1,6 @@
+export const metadata = {
+  title: "Aptonic - Privacy Policy",
+};
 
 export default function Page() {
   return (

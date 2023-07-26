@@ -11,6 +11,10 @@ import forumsIcon from "/public/support/forums.svg";
 
 import { headers } from 'next/headers';
 
+export const metadata = {
+  title: "Aptonic - Support",
+};
+
 export default function Page() {
   const headersList = headers();
   const userAgent = headersList.get("user-agent");
