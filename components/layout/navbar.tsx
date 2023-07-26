@@ -43,6 +43,7 @@ export default function NavBar({ isBlog }) {
                 pathname?.startsWith("/guide") ||
                 pathname?.startsWith("/upgrade") ||
                 pathname?.startsWith("/lost_serial") ||
+                pathname?.startsWith("/uninstall") ||
                 pathname?.startsWith("/intro")
                   ? "font-bold"
                   : "font-normal"
