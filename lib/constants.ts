@@ -2,6 +2,6 @@ export const DEPLOY_URL = `https://vercel.com/new/clone?repository-url=https%3A%
 
 
 export const EXAMPLE_PATH = 'cms-wordpress'
-export const CMS_NAME = 'Aptonic Blog'
+export const CMS_NAME = 'Aptonic - Blog'
 export const CMS_URL = 'https://wordpress.org'
 export const HOME_OG_IMAGE_URL = ''

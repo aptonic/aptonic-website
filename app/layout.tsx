@@ -8,7 +8,25 @@ import Paddle from "@/components/shared/paddle";
 export const metadata = {
   title: "Aptonic - Dropzone 4",
   description:
-    "Aptonic create awesome apps for the Mac. We make Dropzone, an app which makes it faster and easier to move and copy files, launch applications, upload to many different services, and more."
+    "Aptonic create awesome apps for the Mac. We make Dropzone, an app which makes it faster and easier to move and copy files, launch applications, upload to many different services, and more.",
+  keywords: [
+    "Macintosh",
+    "macOS",
+    "Mac",
+    "FTP",
+    "SFTP",
+    "Amazon S3",
+    "S3",
+    "Stash",
+    "Shorten URLs",
+    "Software",
+    "Dropzone",
+    "Dropzone 4",
+    "Productivity",
+    "Upload",
+    "Share",
+    "Drop Bar",
+  ],
 };
 
 export default async function RootLayout({
@@ -18,7 +36,14 @@ export default async function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`overflow-scroll ${cx(sfPro.variable, sfProLight.variable, roboto.variable, inter.variable)}`}>
+      <body
+        className={`overflow-scroll ${cx(
+          sfPro.variable,
+          sfProLight.variable,
+          roboto.variable,
+          inter.variable,
+        )}`}
+      >
         <div className="fixed -z-10 h-screen w-full bg-gradient-to-tl from-violet-100 via-white to-violet-100" />
         <Navbar isBlog={false} />
         <main className="flex min-h-screen w-full flex-col items-center">

@@ -8,7 +8,6 @@ import PostHeader from '../../components/blog/post-header'
 import PostTitle from '../../components/blog/post-title'
 import Tags from '../../components/blog/tags'
 import { getAllPostsWithSlug, getPostAndMorePosts } from '../../lib/api'
-import { CMS_NAME } from '../../lib/constants'
 
 export default function Post({ post, posts, preview }) {
   const router = useRouter()
@@ -26,12 +25,10 @@ export default function Post({ post, posts, preview }) {
             <article>
               <Head>
                 <title>
-                  {`${post.title} | ${CMS_NAME}`}
+                  {`${post.title}`}
                 </title>
-                <meta
-                  property="og:image"
-                  content={post.featuredImage?.node.sourceUrl}
-                />
+                <meta name="description" content="Aptonic create awesome apps for the Mac. We make Dropzone, an app which makes it faster and easier to move and copy files, launch applications, upload to many different services, and more."></meta>
+                <meta name="keywords" content="Macintosh,macOS,Mac,FTP,SFTP,Amazon S3,S3,Stash,Shorten URLs,Software,Dropzone,Dropzone 4,Productivity,Upload,Share,Drop Bar"></meta>
               </Head>
               <PostHeader
                 title={post.title}

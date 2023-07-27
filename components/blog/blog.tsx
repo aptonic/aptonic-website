@@ -14,6 +14,8 @@ export default function Blog({ posts, page }) {
     <>
       <Head>
         <title>{`${CMS_NAME}`}</title>
+        <meta name="description" content="Aptonic create awesome apps for the Mac. We make Dropzone, an app which makes it faster and easier to move and copy files, launch applications, upload to many different services, and more."></meta>
+        <meta name="keywords" content="Macintosh,macOS,Mac,FTP,SFTP,Amazon S3,S3,Stash,Shorten URLs,Software,Dropzone,Dropzone 4,Productivity,Upload,Share,Drop Bar"></meta>
       </Head>
       <Container>
         {paginatedPosts.length > 0 && <MoreStories posts={paginatedPosts} />}
