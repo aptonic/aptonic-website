@@ -6,6 +6,7 @@
 /sparkle/updates.xml                                                https://updates.aptonic.com/dz3/updates.xml
 /sparkle/releasenotes/*                                             https://updates.aptonic.com/dz3/releasenotes/:splat
 /sparkle4/releasenotes/*                                            https://updates.aptonic.com/dz4/releasenotes/:splat
+/releases/*                                                         https://updates.aptonic.com/dz4/:splat
 /forum/*                                                            https://forums.aptonic.com/:splat
 /api                                                                https://github.com/aptonic/dropzone3-actions/blob/master/README.md
 /downsrd/tuyapiphp/src/monitor18325.php                             https://downsrd.aptonic.com/monitor
