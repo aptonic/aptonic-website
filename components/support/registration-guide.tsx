@@ -45,7 +45,7 @@ export default function RegistrationGuide() {
             How to Register Dropzone 4 Pro Lifetime
           </h2>
           <Image
-            src="/registration-step1.png"
+            src="/registration-step1.webp"
             alt="Registration Step 1"
             width={694}
             height={462}
@@ -53,7 +53,7 @@ export default function RegistrationGuide() {
           />
           <br />
           <Image
-            src="/registration-step2.png"
+            src="/registration-step2.webp"
             alt="Registration Step 2"
             width={694}
             height={462}
@@ -61,7 +61,7 @@ export default function RegistrationGuide() {
           />
           <br />
           <Image
-            src="/registration-step3.png"
+            src="/registration-step3.webp"
             alt="Registration Step 3"
             width={694}
             height={462}
@@ -70,7 +70,7 @@ export default function RegistrationGuide() {
   
           <br />
           <Image
-            src="/registration-step4.png"
+            src="/registration-step4.webp"
             alt="Registration Step 4"
             width={694}
             height={462}

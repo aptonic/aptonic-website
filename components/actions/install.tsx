@@ -12,7 +12,7 @@ export default function InstallAction({ params }: { params: { action: string } }
     <div className="mt-16 md:mt-20 mb-5 md:flex md:flex-row p-10 items-center text-gray-700">
       <Image
         alt="Dropzone 4 Icon"
-        src="/app_icon.png"
+        src="/app_icon.webp"
         width={256}
         height={256}
         priority={true}

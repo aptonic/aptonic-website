@@ -1,5 +1,5 @@
 import Image from "next/image";
-import appIcon from "/public/app_icon.png";
+import appIcon from "/public/app_icon.webp";
 import Balancer from "react-wrap-balancer";
 import DzReviewCard from "@/components/home/dzreview-card";
 import BuyButton from "@/components/home/buy-button";
@@ -366,7 +366,7 @@ export default async function Home() {
           </h1>
 
           <Image
-            src="/how-to-use1.png"
+            src="/how-to-use1.webp"
             alt="Drag a file to the top of your screen"
             width={589}
             className="mx-auto"
@@ -379,7 +379,7 @@ export default async function Home() {
           </h1>
 
           <Image
-            src="/how-to-use2.png"
+            src="/how-to-use2.webp"
             alt="A grid of your actions opens. Drop the file on the action you want"
             width={589}
             className="mx-auto"
@@ -391,7 +391,7 @@ export default async function Home() {
           </h1>
 
           <Image
-            src="/how-to-use3.png"
+            src="/how-to-use3.webp"
             alt="The action is performed on your file"
             width={589}
             className="mx-auto"

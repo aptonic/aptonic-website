@@ -40,7 +40,7 @@ export default function Page() {
               <div className="mr-16 mt-[-25px] hidden w-28 shrink-0 md:block">
                 <Image
                   alt="Dropzone 4 Icon"
-                  src="/app_icon.png"
+                  src="/app_icon.webp"
                   priority={true}
                   width={207}
                   height={207}
