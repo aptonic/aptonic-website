@@ -22,3 +22,4 @@
 /actions/install.php                                                bundle_name=:bundle_name                                            /actions/:bundle_name
 /dropzone3/actions                                                  /actions
 /sandboxing.php                                                     /sandboxing
+/masdifference.php                                                  /sandboxing
