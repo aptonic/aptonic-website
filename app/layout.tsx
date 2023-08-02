@@ -4,6 +4,7 @@ import { sfPro, sfProLight, inter, roboto } from "./fonts";
 import Footer from "@/components/layout/footer";
 import Navbar from "@/components/layout/navbar";
 import Paddle from "@/components/shared/paddle";
+import Mouseflow from "@/components/shared/mouseflow";
 
 export const metadata = {
   title: "Aptonic - Dropzone 4",
@@ -51,6 +52,7 @@ export default async function RootLayout({
         </main>
         <Footer />
         <Paddle />
+        <Mouseflow />
       </body>
     </html>
   );
