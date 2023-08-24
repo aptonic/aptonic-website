@@ -96,7 +96,7 @@ export default async function Home() {
 
         <div className="w-9/12 mx-auto items-top flex flex-row flex-wrap justify-center gap-y-5">
           <div className="grid text-center">
-            <a href="https://updates.aptonic.com/dropzone4-latest">
+            <a href="https://aptonic.com/dropzone/latest">
               <button
                 type="button"
                 className="mr-2 inline-flex rounded-lg bg-gradient-to-br from-purple-600 to-blue-500 px-8 py-4 text-center text-sm font-medium text-white hover:bg-gradient-to-bl"

@@ -27,7 +27,7 @@ export default function Page() {
           link below.
         </p>
 
-        <a className="underline" href="https://updates.aptonic.com/dropzone4-latest">
+        <a className="underline" href="https://aptonic.com/dropzone/latest">
           <div className="mx-auto w-56 text-center">
             <img
               className="mx-auto mt-8 h-24 w-24"

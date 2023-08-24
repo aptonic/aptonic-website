@@ -8,7 +8,7 @@ const AppVersion = () => {
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
-    fetch('https://updates.aptonic.com/dz4_latest_version.txt')
+    fetch(`https://updates.aptonic.com/dz4_latest_version.txt?${new Date().getTime()}`)
     .then(response => response.text())
     .then(data => {
         setVersion('Version ' + data);
