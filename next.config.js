@@ -16,7 +16,8 @@ const nextConfig = {
       '1.gravatar.com',
       '2.gravatar.com',
       'secure.gravatar.com',
-    ],    
+    ],  
+    unoptimized: true,
   },
   async redirects() {
     return [
