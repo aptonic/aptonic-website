@@ -7,6 +7,6 @@ export const metadata = {
 export default function ActionsMasPage() {
 
   return (
-    <Actions variant={'mas'} title={'Install Dropzone 4 Pro Cloud Actions'} />
+    <Actions variant={'mas'} title={'Install Dropzone 4 Pro Add-on Actions'} />
   );
 }
