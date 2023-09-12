@@ -13,6 +13,7 @@ interface Item {
 
 type ActionsVariant = "main" | "untested" | "mas";
 
+
 export default function Actions({
   variant,
   title,
@@ -21,8 +22,10 @@ export default function Actions({
   title: string;
 }) {
   const [data, setData] = useState<Item[]>([]);
+  const [extraUrlParams, setExtraUrlParams] = useState("");
 
   useEffect(() => {
+
     let url = "";
 
     if (variant === "main") {
@@ -31,6 +34,7 @@ export default function Actions({
       url = "https://actions.aptonic.com/actions/untested_actions.json";
     } else if (variant === "mas") {
       url = "https://actions.aptonic.com/actions/mas_actions.json";
+      setExtraUrlParams("?mas=1");
     }
 
     fetch(url)
@@ -126,7 +130,7 @@ export default function Actions({
                 <h2 className="text-xl text-violet-900">{item.name}</h2>
                 <ActionDescription item={item} />
                 <a
-                  href={`/actions/${item.name}`}
+                  href={`/actions/${item.name}${extraUrlParams}`}
                   className="min-w-40 min-h-16 relative float-left mt-2 rounded border-b-2 border-purple-800 bg-purple-600 px-1.5 py-0 pb-0 pr-2 pt-1 font-roboto text-sm leading-6 text-white"
                 >
                   <svg
