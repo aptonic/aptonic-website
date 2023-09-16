@@ -6,6 +6,7 @@ import BuyButton from "@/components/home/buy-button";
 import BuyLink from "@/components/home/buy-link";
 import ProFeatures from "@/components/home/pro-features";
 import AppVersion from "@/components/home/app-version";
+import VideoDemo from "@/components/home/video-demo";
 
 export default async function Home() {
   return (
@@ -27,7 +28,7 @@ export default async function Home() {
             />
           </div>
 
-          <div className="pt-5 md:pt-14">
+          <div className="pt-5 md:pt-10">
             <div>
               <h1
                 className="animate-fade-up bg-gradient-to-br from-black to-stone-500 bg-clip-text text-center font-display text-4xl font-bold tracking-[-0.02em] text-transparent opacity-0 drop-shadow-sm md:text-7xl md:leading-[5rem]"
@@ -43,13 +44,22 @@ export default async function Home() {
               </h1>
             </div>
             <div
-              className="mt-6 animate-fade-up text-center font-light text-gray-500 opacity-0 md:text-xl"
+              className="mt-2 animate-fade-up text-center font-light text-gray-500 opacity-0 md:text-xl"
               style={{
                 animationDelay: "0.35s",
                 animationFillMode: "forwards",
               }}
             >
               Enhance productivity on your Mac
+            </div>
+            <div
+              className="mt-4 animate-fade-up text-center font-light text-gray-500 opacity-0 md:text-xl"
+              style={{
+                animationDelay: "0.35s",
+                animationFillMode: "forwards",
+              }}
+            >
+            <VideoDemo />
             </div>
           </div>
         </div>
@@ -94,7 +104,7 @@ export default async function Home() {
           <hr className="my-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
         </div>
 
-        <div className="w-9/12 mx-auto items-top flex flex-row flex-wrap justify-center gap-y-5">
+        <div className="items-top mx-auto flex w-9/12 flex-row flex-wrap justify-center gap-y-5">
           <div className="grid text-center">
             <a href="https://aptonic.com/dropzone/latest">
               <button
@@ -120,7 +130,7 @@ export default async function Home() {
           </div>
         </div>
 
-        <div className="mt-8 w-9/12 mx-auto flex justify-center text-neutral-600">
+        <div className="mx-auto mt-8 flex w-9/12 justify-center text-neutral-600">
           <ul className="max-w-xl list-disc px-4 py-2 text-left sm:w-4/5">
             <li className="py-2">Runs on macOS 10.15 and later</li>
             <li className="py-2">
@@ -131,14 +141,14 @@ export default async function Home() {
               <BuyLink product_id={613556}>
                 purchasing Dropzone 4 Pro Lifetime
               </BuyLink>{" "}
-              for $40 or{" "}
+              for $35 or{" "}
               <BuyLink product_id={620999}>
                 start a Dropzone 4 Pro subscription
               </BuyLink>{" "}
               for only $1.99/month
             </li>
             <li className="py-2">
-              Up to 30% discount if upgrading from Dropzone 3.{' '}<br />
+              Up to 30% discount if upgrading from Dropzone 3. <br />
               <a className="text-blue-400 underline" href="/upgrade">
                 Redeem your discount here
               </a>
@@ -152,7 +162,7 @@ export default async function Home() {
           </Balancer>
         </div>
 
-        <div className="w-9/12 mx-auto flex flex-row flex-wrap justify-center gap-y-5 text-center">
+        <div className="mx-auto flex w-9/12 flex-row flex-wrap justify-center gap-y-5 text-center">
           <a href="https://go.setapp.com/stp88?refAppID=155&stc=Aptonic%20Website&utm_medium=available_on_setapp_button&utm_source=155&utm_campaign=https://aptonic.com">
             <Image
               className="sm:mr-2 md:mr-2"
@@ -177,13 +187,13 @@ export default async function Home() {
           <hr className="my-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
         </div>
 
-        <div className="w-9/12 mx-auto max-w-screen-xl text-center">
+        <div className="mx-auto w-9/12 max-w-screen-xl text-center">
           <h1 className="mb-10 font-roboto text-3xl">
             Dropzone makes it faster and easier to:
           </h1>
         </div>
 
-        <div className="w-9/12 md:w-full mx-auto flex max-w-screen-xl flex-wrap whitespace-nowrap px-2 text-sm text-gray-500">
+        <div className="mx-auto flex w-9/12 max-w-screen-xl flex-wrap whitespace-nowrap px-2 text-sm text-gray-500 md:w-full">
           <div className="w-full px-10 text-center md:w-1/3 md:py-5">
             <ul>
               <li className="flex items-center py-1">
@@ -345,7 +355,7 @@ export default async function Home() {
           </div>
         </div>
 
-        <div className="mb-3 m-5 mt-10 text-center text-lg text-gray-500">
+        <div className="m-5 mb-3 mt-10 text-center text-lg text-gray-500">
           <p>
             Boost your productivity and complete everyday tasks faster with
             Dropzone.
@@ -360,7 +370,7 @@ export default async function Home() {
           <h1 className="mb-12 font-roboto text-3xl">How to use Dropzone</h1>
         </div>
 
-        <div className="w-10/12 mx-auto max-w-screen-xl text-center">
+        <div className="mx-auto w-10/12 max-w-screen-xl text-center">
           <h1 className="mb-3 font-roboto">
             1. Drag a file to the top of your screen
           </h1>
@@ -506,7 +516,7 @@ export default async function Home() {
           <hr className="my-10 h-px border-t-0 bg-gray-200 opacity-100 dark:opacity-50" />
         </div>
 
-        <div className="w-9/12 mx-auto max-w-screen-xl text-center">
+        <div className="mx-auto w-9/12 max-w-screen-xl text-center">
           <h1 className="mb-10 font-roboto text-3xl">There&apos;s more...</h1>
         </div>
 
