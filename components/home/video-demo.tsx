@@ -16,6 +16,7 @@ export default function VideoDemo() {
         <ModalVideo
           channel="youtube"
           isOpen={isOpen}
+          autoplay={true}
           videoId="mfDNyq3GSmk"
           onClose={() => setOpen(false)}
         />,
