@@ -6,7 +6,6 @@ import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import ModalVideo from "react-modal-video";
 import 'node_modules/react-modal-video/scss/modal-video.scss';
-import './video-demo.css'
 
 export default function VideoDemo() {
   const [isOpen, setOpen] = useState(false);
