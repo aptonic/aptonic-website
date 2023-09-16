@@ -12,7 +12,7 @@ export default function VideoDemo() {
 
   return (
     <>
-      {ReactDOM.createPortal(
+      {typeof window !== 'undefined' && ReactDOM.createPortal(
         <ModalVideo
           channel="youtube"
           isOpen={isOpen}
