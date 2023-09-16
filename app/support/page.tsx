@@ -59,7 +59,7 @@ export default function Page() {
 
               <div>
                 <SupportItem
-                  title="Dropzone Introduction Video"
+                  title="Dropzone 4 Introduction Video"
                   icon={playIcon}
                   link="/intro"
                 >
