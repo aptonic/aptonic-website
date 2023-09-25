@@ -16,8 +16,7 @@ const getReleaseNotes = async () => {
     return (
       <div className="z-10 mt-28 px-5 sm:w-full lg:max-w-4xl">
         <h2 className="mb-10 text-xl font-medium text-gray-700">Dropzone 4 Release Notes</h2>
-        <div className="text-gray-700" dangerouslySetInnerHTML={{ __html: releasenotes }}>
-        </div>
+        <div className="text-gray-700" dangerouslySetInnerHTML={{ __html: releasenotes }}></div>
       </div>
     );
   }
