@@ -22,7 +22,7 @@ const AppVersion = () => {
 
   return (
     <span className={`pt-2 text-sm text-gray-500 transition-opacity duration-500 ${loaded ? 'opacity-100' : 'opacity-0'}`}>
-      {error ? '' : version}
+      {error ? '' : version} - <a className="underline text-sm text-gray-500" href="/releasenotes">Release Notes</a>
     </span>
   )
 };

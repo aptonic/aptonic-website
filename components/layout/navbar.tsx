@@ -42,6 +42,7 @@ export default function NavBar({ isBlog }) {
                 pathname?.startsWith("/actions") ||
                 pathname?.startsWith("/guide") ||
                 pathname?.startsWith("/upgrade") ||
+                pathname?.startsWith("/releasenotes") ||
                 pathname?.startsWith("/lost_serial") ||
                 pathname?.startsWith("/uninstall") ||
                 pathname?.startsWith("/dropzone3") ||

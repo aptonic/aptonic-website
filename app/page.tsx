@@ -121,7 +121,7 @@ export default async function Home() {
                 Download Dropzone 4
               </button>
             </a>
-            <AppVersion />
+            <div className="text-gray-500"><AppVersion /></div>
           </div>
 
           <div className="grid text-center">
