@@ -5,7 +5,7 @@ export const metadata = {
 import "./releasenotes.css";
 
 const getReleaseNotes = async () => {
-    const data = await fetch("https://updates.aptonic.com/dz4/releasenotes/releasenotes.html");
+    const data = await fetch("https://updates.aptonic.com/dz4/releasenotes/releasenotes.html", { next: { revalidate: 3600 } });
     const releasenotes = await data.text();
     return releasenotes;
   };
