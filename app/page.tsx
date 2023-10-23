@@ -431,7 +431,7 @@ export default async function Home() {
           </h1>
 
           <Image
-            src="/keyboard-overlays.png"
+            src="/keyboard-overlays.webp"
             alt="Dropzone opens and shows the shortcut key overlaid on each icon"
             width={615}
             className="mx-auto"
