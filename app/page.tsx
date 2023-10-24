@@ -88,7 +88,7 @@ export default async function Home() {
             className="text-blue-400 underline"
             href="https://aptonic.com/blog/dropzone-4-updated-for-macos-sonoma"
           >
-            Dropzone 4 updated for macOS Sonoma - Read Blog Post
+            Updated for macOS Sonoma - Read Blog Post
           </a>
         </Balancer>
       </div>
