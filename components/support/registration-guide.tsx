@@ -48,7 +48,7 @@ export default function RegistrationGuide() {
             src="/registration-step1.webp"
             alt="Registration Step 1"
             width={694}
-            height={462}
+            height={480}
             quality={100}
           />
           <br />
