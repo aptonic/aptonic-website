@@ -86,9 +86,9 @@ export default async function Home() {
         <Balancer>
           <a
             className="text-blue-400 underline"
-            href="https://aptonic.com/blog/dropzone-4-versus-dropzone-3-should-i-upgrade/"
+            href="https://aptonic.com/blog/dropzone-4-updated-for-macos-sonoma"
           >
-            Dropzone 4 versus Dropzone 3 - Read Blog Post
+            Updated for macOS Sonoma - Read Blog Post
           </a>
         </Balancer>
       </div>
@@ -431,7 +431,7 @@ export default async function Home() {
           </h1>
 
           <Image
-            src="/keyboard-overlays.png"
+            src="/keyboard-overlays.webp"
             alt="Dropzone opens and shows the shortcut key overlaid on each icon"
             width={615}
             className="mx-auto"
