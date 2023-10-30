@@ -59,7 +59,7 @@ export default async function Home() {
                 animationFillMode: "forwards",
               }}
             >
-            <VideoDemo />
+              <VideoDemo />
             </div>
           </div>
         </div>
@@ -71,9 +71,10 @@ export default async function Home() {
           animationFillMode: "forwards",
         }}
       >
-        Dropzone is a productivity app for the Mac that makes it faster and
-        easier to move and copy files, launch applications, upload to many
-        different services, and much more.
+        Dropzone is a productivity app for the Mac that redefines your drag and
+        drop experience, accelerates file transfers, simplifies application
+        launches, and seamlessly integrates with many services to optimise your
+        workflow.
       </div>
 
       <div
@@ -121,7 +122,9 @@ export default async function Home() {
                 Download Dropzone 4
               </button>
             </a>
-            <div className="text-gray-500 pt-1"><AppVersion /></div>
+            <div className="pt-1 text-gray-500">
+              <AppVersion />
+            </div>
           </div>
 
           <div className="grid text-center">
