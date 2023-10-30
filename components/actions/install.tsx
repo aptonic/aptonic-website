@@ -35,13 +35,17 @@ export default function InstallAction({
             Download the action bundle by clicking the Download button below.
           </p>
 
-          <p className="text-sm mt-2 mb-5">
-            After download, open your downloads folder and double click the <span className="font-medium">{decodeURIComponent(params.action)}.dzbundle</span> file to install it.
+          <p className="mb-5 mt-2 text-sm">
+            After download, open your downloads folder and double click the{" "}
+            <span className="font-medium">
+              {decodeURIComponent(params.action)}.dzbundle
+            </span>{" "}
+            file to install it.
           </p>
 
           <a
             href="/actions/mas"
-            className="text-shadow mt-5 inline-block cursor-pointer select-none rounded-lg border border-gray-300 bg-gradient-to-b from-white to-gray-100 px-4 py-2 text-sm font-medium text-gray-600 transition-all hover:bg-gradient-to-b hover:from-gray-100 hover:to-white active:relative active:translate-y-1"
+            className="text-shadow mr-3 mt-5 inline-block cursor-pointer select-none rounded-lg border border-gray-300 bg-gradient-to-b from-white to-gray-100 px-4 py-2 text-sm font-medium text-gray-600 transition-all hover:bg-gradient-to-b hover:from-gray-100 hover:to-white active:relative active:translate-y-1"
           >
             <div className="inline-flex">
               <svg
@@ -55,11 +59,11 @@ export default function InstallAction({
 
           <a
             href={`https://github.com/aptonic/dropzone4-actions-zipped/raw/master/${params.action}.dzbundle`}
-            className="mr-3 text-shadow mt-5 inline-block cursor-pointer select-none rounded-lg border border-gray-300 bg-gradient-to-b from-white to-gray-100 px-4 py-2 text-sm font-medium text-gray-600 transition-all hover:bg-gradient-to-b hover:from-gray-100 hover:to-white active:relative active:translate-y-1"
+            className="text-shadow mt-5 inline-block cursor-pointer select-none rounded-lg border border-gray-300 bg-gradient-to-b from-white to-gray-100 px-4 py-2 text-sm font-medium text-gray-600 transition-all hover:bg-gradient-to-b hover:from-gray-100 hover:to-white active:relative active:translate-y-1"
           >
             <div className="inline-flex">
               <svg
-                className="mr-2 h-4 w-4 fill-current translate-y-[2px]"
+                className="mr-2 h-4 w-4 translate-y-[2px] fill-current"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
               >
@@ -68,7 +72,6 @@ export default function InstallAction({
               Download
             </div>
           </a>
-
         </div>
       </div>
     );
