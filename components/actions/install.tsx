@@ -38,6 +38,21 @@ export default function InstallAction({
           <p className="text-sm mt-2 mb-5">
             After download, open your downloads folder and double click the <span className="font-medium">{decodeURIComponent(params.action)}.dzbundle</span> file to install it.
           </p>
+
+          <a
+            href="/actions/mas"
+            className="text-shadow mt-5 inline-block cursor-pointer select-none rounded-lg border border-gray-300 bg-gradient-to-b from-white to-gray-100 px-4 py-2 text-sm font-medium text-gray-600 transition-all hover:bg-gradient-to-b hover:from-gray-100 hover:to-white active:relative active:translate-y-1"
+          >
+            <div className="inline-flex">
+              <svg
+                className="h-4 w-0 fill-current"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+              ></svg>
+              Back to Actions List
+            </div>
+          </a>
+
           <a
             href={`https://github.com/aptonic/dropzone4-actions-zipped/raw/master/${params.action}.dzbundle`}
             className="mr-3 text-shadow mt-5 inline-block cursor-pointer select-none rounded-lg border border-gray-300 bg-gradient-to-b from-white to-gray-100 px-4 py-2 text-sm font-medium text-gray-600 transition-all hover:bg-gradient-to-b hover:from-gray-100 hover:to-white active:relative active:translate-y-1"
@@ -54,19 +69,6 @@ export default function InstallAction({
             </div>
           </a>
 
-          <a
-            href="/actions/mas"
-            className="text-shadow mt-5 inline-block cursor-pointer select-none rounded-lg border border-gray-300 bg-gradient-to-b from-white to-gray-100 px-4 py-2 text-sm font-medium text-gray-600 transition-all hover:bg-gradient-to-b hover:from-gray-100 hover:to-white active:relative active:translate-y-1"
-          >
-            <div className="inline-flex">
-              <svg
-                className="h-4 w-0 fill-current"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-              ></svg>
-              Back to Actions List
-            </div>
-          </a>
         </div>
       </div>
     );
