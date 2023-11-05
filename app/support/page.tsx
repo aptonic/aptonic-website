@@ -109,7 +109,7 @@ export default function Page() {
                 </SupportItem>
 
                 <SupportItem
-                  title="Dropzone Press Kit (Updated Feb 2023)"
+                  title="Dropzone Press Kit (Updated Nov 2023)"
                   icon={pressIcon}
                   link="/Dropzone-4-Press-Kit.zip"
                 >
