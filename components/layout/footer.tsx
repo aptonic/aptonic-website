@@ -4,6 +4,7 @@ export default function Footer() {
   return (
     <div className="absolute w-full border-t border-gray-200 bg-white py-5 text-center">
       <p className="text-gray-500">Copyright &copy; {currentYear} Aptonic Ltd.</p>
+      <p className="text-gray-500 underline mt-3 text-sm"><a href="/privacy">Privacy Policy</a></p>
     </div>
   );
 }
