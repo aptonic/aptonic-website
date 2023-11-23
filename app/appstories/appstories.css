@@ -1,0 +1,71 @@
+.header-fills_plus__bRKht .header-fills_circle__cdaQv ellipse,.header-fills_plus__bRKht .header-fills_circle__cdaQv path {
+    fill: var(--color-plus-flip-purple)
+}
+
+.header-fills_plus__bRKht .header-fills_bookmark__TDTTu path {
+    fill: var(--color-plus-flip-gold)
+}
+
+.header-fills_plus__bRKht .header-fills_club-top__G6JA_ path {
+    fill: var(--color-gold)
+}
+
+.header-fills_plus__bRKht .header-fills_club-bottom__ZbZSf path,.header-fills_plus__bRKht .header-fills_macstories__BBXmb path,.header-fills_plus__bRKht .header-fills_plus__bRKht {
+    fill: var(--color-plus-purple)
+}
+
+.header-fills_club__SEN6h .header-fills_circle__cdaQv ellipse,.header-fills_club__SEN6h .header-fills_circle__cdaQv path {
+    fill: var(--color-club-flip-red)
+}
+
+.header-fills_club__SEN6h .header-fills_bookmark__TDTTu path {
+    fill: var(--color-club-flip-gold)
+}
+
+.header-fills_club__SEN6h .header-fills_club-top__G6JA_ path {
+    fill: var(--color-gold)
+}
+
+.header-fills_club__SEN6h .header-fills_club-bottom__ZbZSf path,.header-fills_club__SEN6h .header-fills_macstories__BBXmb path {
+    fill: var(--color-red)
+}
+
+.header-fills_premier__hDWRI .header-fills_circle__cdaQv ellipse,.header-fills_premier__hDWRI .header-fills_circle__cdaQv path,.header-fills_premier__hDWRI .header-fills_premier-text__40LrE path {
+    fill: var(--color-premier-flip-dark)
+}
+
+.header-fills_premier__hDWRI .header-fills_bookmark__TDTTu path {
+    fill: var(--color-premier-flip-gold)
+}
+
+.header-fills_premier__hDWRI .header-fills_club-top__G6JA_ path {
+    fill: var(--color-gold)
+}
+
+.header-fills_premier__hDWRI .header-fills_club-bottom__ZbZSf path {
+    fill: var(--color-premier-dark)
+}
+
+.header-fills_premier__hDWRI .header-fills_opacity-overlay__GVRxx {
+    fill: var(--color-premier-overlay)
+}
+
+.header-fills_appstories__L3G6o .header-fills_grey__vNOOo path {
+    fill: #86a0a5;
+}
+
+.header-fills_appstories__L3G6o .header-fills_dark-blue__2mwYY path {
+    fill: #317ccc;
+}
+
+.header-fills_appstories__L3G6o .header-fills_light-blue__52iH_ path {
+    fill: #09f;
+}
+
+.header-fills_appstories__L3G6o #header-fills_bookmark-gradient__GKr19,.header-fills_appstories__L3G6o #header-fills_outline-path__VA3k2,.header-fills_appstories__L3G6o #header-fills_plus-gradient__R9Eia {
+    opacity: 1
+}
+
+.header-fills_appstories__L3G6o .header-fills_transparent__eC6Ed {
+    opacity: .5
+}

@@ -1,11 +1,15 @@
 "use client";
 
-export default function BuyButton() {
+export default function BuyButton({ hasDiscount }) {
   return (
     <>
       <button
         onClick={() => {
-          window.Paddle.Checkout.open({ product: 613556 });
+          if (hasDiscount) {
+            window.Paddle.Checkout.open({ product: 613556, coupon: '9C0E5DE4' });
+          } else {
+            window.Paddle.Checkout.open({ product: 613556 });
+          }
         }}
         className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-purple-600 
 to-blue-500 p-0.5 text-sm font-medium text-gray-900 hover:text-white group-hover:from-purple-600 group-hover:to-blue-500"
@@ -27,7 +31,15 @@ to-blue-500 p-0.5 text-sm font-medium text-gray-900 hover:text-white group-hover
             <circle cx="20" cy="21" r="1"></circle>
             <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
           </svg>
-          <span>Buy Dropzone 4 for $35</span>
+          {hasDiscount ? (
+            <>
+              <span>Buy Dropzone 4 for </span>
+              <span style={{ textDecoration: 'line-through', color: 'red' }}>$35</span>
+              <span> $24</span>
+            </>
+          ) : (
+            <span>Buy Dropzone 4 for $35</span>
+          )}
         </span>
       </button>
     </>
