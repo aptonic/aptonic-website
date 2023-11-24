@@ -6,7 +6,7 @@ export default function BuyButton({ hasDiscount }) {
       <button
         onClick={() => {
           if (hasDiscount) {
-            window.Paddle.Checkout.open({ product: 613556, coupon: '9C0E5DE4' });
+            window.Paddle.Checkout.open({ product: 613556, coupon: 'BLACKFRIDAY' });
           } else {
             window.Paddle.Checkout.open({ product: 613556 });
           }
@@ -35,7 +35,7 @@ to-blue-500 p-0.5 text-sm font-medium text-gray-900 hover:text-white group-hover
             <>
               <span>Buy Dropzone 4 for </span>
               <span style={{ textDecoration: 'line-through', color: 'red' }}>$35</span>
-              <span> $24</span>
+              <span> $30</span>
             </>
           ) : (
             <span>Buy Dropzone 4 for $35</span>
