@@ -147,7 +147,7 @@ export default async function Home({ isAppStories }) {
         )}
 
         <div
-          className="mb-10 mt-10 animate-fade-up rounded-md bg-slate-700 p-5 text-center text-white opacity-0"
+          className="mb-10 mt-10 animate-fade-up rounded-md bg-slate-700 p-5 text-center text-white opacity-0 m-10"
           style={{
             animationDelay: "0.55s",
             animationFillMode: "forwards",
