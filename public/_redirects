@@ -25,4 +25,5 @@
 /dropzone3/actions                                                  /actions
 /sandboxing.php                                                     /sandboxing
 /masdifference.php                                                  /sandboxing
-/coupon                                                             coupon=:coupon product_id=:product_id                               https://licensing.aptonic.com/coupon?coupon=:coupon&product_id=:product_id  301
+/coupon                                                             coupon=:coupon                                                      https://licensing.aptonic.com/coupon?coupon=:coupon
+/coupon                                                             coupon=:coupon product_id=:product_id                               https://licensing.aptonic.com/coupon?coupon=:coupon&product_id=:product_id
