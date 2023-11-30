@@ -146,18 +146,6 @@ export default async function Home({ isAppStories }) {
           </div>
         )}
 
-        <div
-          className="mb-10 mt-10 animate-fade-up rounded-md bg-slate-700 p-5 text-center text-white opacity-0 m-10"
-          style={{
-            animationDelay: "0.55s",
-            animationFillMode: "forwards",
-          }}
-        >
-          <div className="text-xl font-bold text-white">
-            🎉 Black Friday Sale - 15% off Dropzone 4 Pro Lifetime 🎉
-          </div>
-        </div>
-
         <div className="items-top mx-auto flex w-9/12 flex-row flex-wrap justify-center gap-y-5">
           <div className="grid text-center">
             <a href="https://aptonic.com/dropzone/latest">
@@ -181,7 +169,7 @@ export default async function Home({ isAppStories }) {
           </div>
 
           <div className="grid text-center">
-            <BuyButton hasDiscount={true} />
+            <BuyButton hasDiscount={isAppStories} />
             <ProFeatures />
           </div>
         </div>
@@ -194,11 +182,18 @@ export default async function Home({ isAppStories }) {
             </li>
             <li className="py-2">
               Unlock all Dropzone 4 Pro features by{" "}
-              <BuyLink product_id={613556} coupon="BLACKFRIDAY">
+              <BuyLink product_id={613556} coupon={isAppStories ? "APPSTORIES" : ""}>
                 purchasing Dropzone 4 Pro Lifetime
               </BuyLink>{" "}
-              for $35 or{" "}
-              <BuyLink product_id={620999}>
+              for {isAppStories ? (
+            <>
+              <span style={{ textDecoration: 'line-through', color: 'red' }}>$35</span>
+              <span> $25</span>
+            </>
+          ) : (
+            <span>$35</span>
+          )} or{" "}
+              <BuyLink product_id={620999} coupon={isAppStories ? "APPSTORIES" : ""}>
                 start a Dropzone 4 Pro subscription
               </BuyLink>{" "}
               for only $1.99/month
