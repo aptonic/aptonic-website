@@ -88,9 +88,9 @@ export default async function Home({ isAppStories }) {
         <Balancer>
           <a
             className="text-blue-400 underline"
-            href="https://aptonic.com/blog/dropzone-4-updated-for-macos-sonoma"
+            href="https://aptonic.com/blog/drop-bar-improved-with-stack-naming-and-reordering"
           >
-            Updated for macOS Sonoma - Read Blog Post
+            Drop Bar improved with stack naming and reordering - Read Blog Post
           </a>
         </Balancer>
       </div>
