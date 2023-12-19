@@ -33,40 +33,8 @@ const ProFeaturesModal = ({
           </p>
 
           <div className="grid md:grid-cols-3 grid-cols-1 gap-2 pt-8">
-            <div className="flex items-center">
-              <Image
-                src="/actions/gdrive.png"
-                alt="Google Drive"
-                width={50}
-                height={50}
-                className="mr-5"
-              />
-              <span>Google Drive Uploading</span>
-            </div>
 
-            <div className="flex items-center">
-              <Image
-                src="/actions/amazons3.png"
-                alt="Amazon S3 Uploading"
-                width={50}
-                height={50}
-                className="mr-5"
-              />
-              Amazon S3 Uploading
-            </div>
-
-            <div className="flex items-center">
-              <Image
-                src="/actions/sftp.png"
-                alt="SFTP/FTP Uploading"
-                width={50}
-                height={50}
-                className="mr-5"
-              />
-              SFTP/FTP Uploading
-            </div>
-
-            <div className="flex items-center">
+          <div className="flex items-center">
               <Image
                 src="/actions/moveandrename.png"
                 alt="Rename &amp; Move Files"
@@ -88,17 +56,6 @@ const ProFeaturesModal = ({
               Quick Look Drop Bar items
             </div>
 
-            <div className="flex items-center">
-              <Image
-                src="/stack.png"
-                alt="Seperate Drop Bar stacks"
-                width={50}
-                height={50}
-                className="mr-5"
-              />
-              Seperate Drop Bar stacks
-            </div>
-
 
             <div className="flex items-center">
               <Image
@@ -113,6 +70,29 @@ const ProFeaturesModal = ({
 
             <div className="flex items-center">
               <Image
+                src="/actions/amazons3.png"
+                alt="Amazon S3 Uploading"
+                width={50}
+                height={50}
+                className="mr-5"
+              />
+              Amazon S3 Uploading
+            </div>
+
+            <div className="flex items-center">
+              <Image
+                src="/rename-stack.png"
+                alt="Seperate Drop Bar stacks"
+                width={50}
+                height={50}
+                className="mr-5"
+              />
+              Name Drop Bar stacks
+            </div>
+
+
+            <div className="flex items-center">
+              <Image
                 src="/actions/applescript.png"
                 alt="Run AppleScript"
                 width={50}
@@ -121,6 +101,31 @@ const ProFeaturesModal = ({
               />
               Add Run AppleScript actions
             </div>
+
+
+            <div className="flex items-center">
+              <Image
+                src="/actions/sftp.png"
+                alt="SFTP/FTP Uploading"
+                width={50}
+                height={50}
+                className="mr-5"
+              />
+              SFTP/FTP Uploading
+            </div>
+
+            <div className="flex items-center">
+              <Image
+                src="/stack.png"
+                alt="Seperate Drop Bar stacks"
+                width={50}
+                height={50}
+                className="mr-5"
+              />
+              Seperate Drop Bar stacks
+            </div>
+
+
 
             <div className="flex items-center">
               <Image
@@ -132,6 +137,13 @@ const ProFeaturesModal = ({
               />
               Action/macOS Service Key Triggers
             </div>
+
+
+
+
+
+
+
 
             <div className="flex items-center">
               <Image
