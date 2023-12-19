@@ -307,28 +307,30 @@ export default async function Home({ isAppStories }) {
 
           <div className="w-full px-10 text-center md:w-1/3 md:py-5">
             <ul>
+            <li className="flex items-center py-1">
+                <Image
+                  src="/actions/shortcuts.png"
+                  alt="Run Shortcuts"
+                  width={50}
+                  height={50}
+                />
+                <span className="pl-3">Run Shortcuts</span>
+              </li>
+              
               <li className="flex items-center py-1">
                 <Image
                   src="/actions/imgur.png"
-                  alt="Move Files"
+                  alt="Imgur"
                   width={50}
                   height={50}
                 />
                 <span className="pl-3">Imgur</span>
               </li>
-              <li className="flex items-center py-1">
-                <Image
-                  src="/actions/gdrive.png"
-                  alt="Copy Files"
-                  width={50}
-                  height={50}
-                />
-                <span className="pl-3">Google Drive</span>
-              </li>
+
               <li className="flex items-center py-1">
                 <Image
                   src="/actions/amazons3.png"
-                  alt="Install Applications"
+                  alt="Amazon S3"
                   width={50}
                   height={50}
                 />
@@ -337,7 +339,7 @@ export default async function Home({ isAppStories }) {
               <li className="flex items-center py-1">
                 <Image
                   src="/actions/sftp.png"
-                  alt="Launch Applications"
+                  alt="SFTP Server"
                   width={50}
                   height={50}
                 />
@@ -346,7 +348,7 @@ export default async function Home({ isAppStories }) {
               <li className="flex items-center py-1">
                 <Image
                   src="/actions/ftp.png"
-                  alt="AirDrop"
+                  alt="FTP Server"
                   width={50}
                   height={50}
                 />
@@ -360,7 +362,7 @@ export default async function Home({ isAppStories }) {
               <li className="flex items-center py-1">
                 <Image
                   src="/actions/moveandrename.png"
-                  alt="Move Files"
+                  alt="Rename &amp; Move Files"
                   width={50}
                   height={50}
                 />
@@ -369,7 +371,7 @@ export default async function Home({ isAppStories }) {
               <li className="flex items-center py-1">
                 <Image
                   src="/actions/shorten.png"
-                  alt="Copy Files"
+                  alt="Shorten URLs"
                   width={50}
                   height={50}
                 />
@@ -378,7 +380,7 @@ export default async function Home({ isAppStories }) {
               <li className="flex items-center py-1">
                 <Image
                   src="/actions/resize-images.png"
-                  alt="Install Applications"
+                  alt="Resize Images"
                   width={50}
                   height={50}
                 />
@@ -387,7 +389,7 @@ export default async function Home({ isAppStories }) {
               <li className="flex items-center py-1">
                 <Image
                   src="/actions/tinify.png"
-                  alt="Launch Applications"
+                  alt="Compress Images"
                   width={50}
                   height={50}
                 />
@@ -396,7 +398,7 @@ export default async function Home({ isAppStories }) {
               <li className="flex items-center py-1">
                 <Image
                   src="/actions/downloader.png"
-                  alt="AirDrop"
+                  alt="Download YouTube Videos"
                   width={50}
                   height={50}
                 />
